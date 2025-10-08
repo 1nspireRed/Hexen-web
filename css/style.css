@@ -444,7 +444,7 @@ margin-top: 6.5vh;
 }
 
 .leftpart {
-  margin-top: 1vh;
+  margin-top: 5vh;
 }
 
 
@@ -462,7 +462,7 @@ margin-top: 6.5vh;
   .section2,
   .section3,
   .section4 {
-    height: 45vh;
+    height: 40vh;
     width: 35%;
   }
 
@@ -512,11 +512,21 @@ margin-top: 6.5vh;
   .section2,
   .section3,
   .section4 {
-    height: 40vh;
+    height: 50vh;
     width: 70%;
     margin-top: 0;
-    margin-bottom: 1vh;
   }
+
+  .section4 {
+    margin-bottom: 5vh;
+  }
+
+  .catcitybutton {
+    margin-top: 12rem;
+  }
+
+
+
 }
 
 
@@ -536,25 +546,11 @@ padding-left: 13%;
 .parallaxtextblock {
 position: relative;
 height: 70vh;
-width: 30%;
+width: 31rem;
 border: 2px solid #01FF9F;
 border-radius: 2%;
 background-color: #000;
-padding-top: 30px;
-}
-
-.parallaxtextblock h2 {
-    color: #01FF9F;
-    padding: 50px 0 0 100px;
-    font-size: 1.8rem;
-}
-
-.parallaxtextblock p {
-    color: #ccc;
-    padding: 25px 60px 0 100px;
-    line-height: 1.5;
-    text-align: justify;
-    font-size: 1rem;
+padding-top: 2rem;
 }
 
 .textblockline {
@@ -565,6 +561,51 @@ padding-top: 30px;
     border-left: 1px solid #01FF9F;
 }
 
+.parallaxtextblock h2 {
+    color: #01FF9F;
+    padding: 3.1rem 0 0 6.25rem;
+    font-size: 1.8rem;
+}
+
+.parallaxtextblock p {
+    color: #ccc;
+    padding: 25px 60px 0 6.25rem;
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+  .parallax1 {
+    justify-content: center;
+    padding-left: 0;
+  }
+
+.parallaxtextblock {
+  width: 90%;
+} 
+
+.parallaxtextblock h2 {
+  padding-top: 0.5rem;
+  padding-left: 4rem;
+}
+
+.parallaxtextblock p {
+  font-size: 0.9rem;
+  padding-left: 4rem  ;
+}
+
+.textblockline {
+  height: 85%;
+  top: 40px;
+}
+}
+
+@media (max-width: 400px) {
+  .parallaxtextblock {
+    height: 90vh;
+  }
+}
 
 
 .button-style2 {
