@@ -10,7 +10,7 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-  outline: 1px solid red;
+  
 }
 
 html {
@@ -199,7 +199,7 @@ header nav {
     height: 100vh;
     min-width: 100%;
     background: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0) 30%),
-     url("../static/img/bgimage.jpg"); 
+     url("../static/img/MainPage_TitlePhoto.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -214,12 +214,6 @@ font-size: 3rem;
 color: #000;
 font-family: "Exo 2", sans-serif;
 font-style: italic;
-
-}
-
-@media (max-width: 768px) {
-
-  
 
 }
 
@@ -298,22 +292,6 @@ margin-top: -10vh;
     border-radius: 10%;
 }
 
-
-
-.section1 h1 {
-    color: #01FF9F;
-    font-size: 1rem;
-    margin-top: 1.25rem;
-    padding: 0 1.25rem;
-    margin-bottom: 0.625rem;
-}
-
-.section1 p {
-    padding: 0.625rem 1.25rem;
-    font-size: 1rem;
-    color: #ccc;
-}
-
 .section2 {
     position: relative;
     height: 40vh;
@@ -325,19 +303,6 @@ margin-top: -10vh;
     border-radius: 10%;
 }
 
-.section2 h1 {
-    color: #01FF9F;
-    font-size: 1rem;
-    margin-top: 1.25rem;
-    padding: 0 1.25rem;
-    margin-bottom: 0.625rem;
-}
-
-.section2 p {
-    font-size: 1rem;
-    color: #ccc;
-    padding: 0.625rem 1.25rem;
-}
 
 .rightpart {
 display: flex;
@@ -357,21 +322,6 @@ margin-top: 6.5vh;
     border-radius: 10%;
 }
 
-.section3 h1 {
-    color: #01FF9F;
-    font-size: 1rem;
-    margin-top: 1.25rem;
-    padding: 0 1.25rem;
-    margin-bottom: 0.625rem;
-}
-
-.section3 p {
-    padding: 10px;
-    font-size: 1rem;
-    color: #ccc;
-    padding: 0.625rem 1.25rem;
-}
-
 .section4 {
     position: relative;
     height: 40vh;
@@ -382,16 +332,23 @@ margin-top: 6.5vh;
     border-radius: 10%;
 }
 
+.section1 h1,
+.section2 h1,
+.section3 h1,
 .section4 h1 {
     color: #01FF9F;
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin-top: 1.25rem;
     padding: 0 1.25rem;
     margin-bottom: 0.625rem;
 }
 
+.section1 p,
+.section2 p,
+.section3 p,
 .section4 p {
-    font-size: 1rem;
+      padding: 10px;
+    font-size: 0.9rem;
     color: #ccc;
     padding: 0.625rem 1.25rem;
 }
@@ -422,12 +379,6 @@ margin-top: 6.5vh;
   margin-left: 15%;
 }
 
-.section1 p,
-.section2 p,
-.section3 p,
-.section4 p {
-  font-size: 0.8rem;
-}
 
     .section1,
   .section2,
@@ -461,7 +412,7 @@ margin-top: 6.5vh;
 @media (max-width: 1100px) {
   
   .mpbox {
-    flex-direction: column-reverse; 
+    flex-direction: column; 
     align-items: center; 
     padding: 0;
   }
@@ -476,7 +427,7 @@ margin-top: 6.5vh;
 
   .leftbox {
     border: 2px solid #01FF9F;
-    border-top: none;
+    border-bottom: none;
   }
 
   .section1,
@@ -487,10 +438,15 @@ margin-top: 6.5vh;
     width: 30%;
   }
 
-  .leftpart,
+.leftpart,
 .rightpart {
   margin-left: 15%;
 }
+
+.leftpart {
+  margin-top: 1vh;
+}
+
 
 .catcitybutton {
   text-align: center;
@@ -517,46 +473,50 @@ margin-top: 6.5vh;
 }
 }
 
-@media (max-width: 570px) {
+@media (max-width:650px) {
 
- .section1,
-  .section2,
-  .section3,
-  .section4 {
-    height: 45vh;
-    width: 40%;
-  }
-
-  .leftpart,
-.rightpart {
-  width: 100%;
-  margin-left: 5%;
+.rightbox {
+  height: auto;
 }
-}
-
-@media (max-width: 500px) {
-
- .section1,
-  .section2,
-  .section3,
-  .section4 {
-    height: 45vh;
-    width: 43%;
-  }
-
-    .leftpart,
+  
+.leftpart,
 .rightpart {
-  width: 100%;
   margin-left: 0;
-  padding: 0 1rem;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+  .section1,
+  .section2,
+  .section3,
+  .section4 {
+    height: 40vh;
+    width: 50%;
+    margin-top: 0;
+    margin-bottom: 1vh;
+  }
 
 .section1 p,
 .section2 p,
 .section3 p,
 .section4 p {
-  font-size: 0.75rem;
+    font-size: 0.8rem;
 }
+}
+
+@media (max-width: 450px) {
+
+  .section1,
+  .section2,
+  .section3,
+  .section4 {
+    height: 40vh;
+    width: 70%;
+    margin-top: 0;
+    margin-bottom: 1vh;
+  }
 }
 
 
@@ -580,21 +540,21 @@ width: 30%;
 border: 2px solid #01FF9F;
 border-radius: 2%;
 background-color: #000;
-padding-top: 20px;
+padding-top: 30px;
 }
 
 .parallaxtextblock h2 {
     color: #01FF9F;
-    padding: 35px 0 0 100px;
+    padding: 50px 0 0 100px;
     font-size: 1.8rem;
 }
 
 .parallaxtextblock p {
     color: #ccc;
-    padding: 20px 60px 0 100px;
+    padding: 25px 60px 0 100px;
     line-height: 1.5;
     text-align: justify;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .textblockline {
