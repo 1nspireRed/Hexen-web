@@ -124,3 +124,27 @@ function onScroll() {
   lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
 }
 
+window.addEventListener('scroll', onScroll);
+onScroll(); // инициализация при загрузке
+
+
+(function() {
+    emailjs.init({
+      publicKey: "HHJ9YzpZrM8tcbJ76" // например: "y4hS5vXg7q2k5abcD"
+    });
+  })();
+
+  // Отправка формы
+  document.querySelector(".contact-form").addEventListener("submit", function(e) {
+    e.preventDefault(); // блокируем перезагрузку страницы
+
+    // Отправляем форму через EmailJS
+    emailjs.sendForm("service_npwq7t5", "template_xkkq6im", this)
+      .then(() => {
+        alert("✅ Your message has been sent!");
+        this.reset(); // очищаем поля
+      }, (error) => {
+        console.error("❌ EmailJS error:", error);
+        alert("Failed to send. Please try again later.");
+      });
+  });
