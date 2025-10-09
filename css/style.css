@@ -512,7 +512,7 @@ margin-top: 6.5vh;
   .section2,
   .section3,
   .section4 {
-    height: 50vh;
+    height: 55vh;
     width: 70%;
     margin-top: 0;
   }
@@ -525,8 +525,21 @@ margin-top: 6.5vh;
     margin-top: 12rem;
   }
 
+.section1 p,
+.section2 p,
+.section3 p,
+.section4 p {
+    font-size: 1rem;
+}
+}
 
-
+@media (max-width: 400px) {
+  .section1,
+  .section2,
+  .section3,
+  .section4 {
+    height: 60vh;
+  }
 }
 
 
@@ -575,6 +588,13 @@ padding-top: 2rem;
     font-size: 1rem;
 }
 
+
+@media (max-width: 1700px) {
+  .parallaxtextblock h2 {
+    padding-top: 2rem;
+  }
+}
+
 @media (max-width: 600px) {
   .parallax1 {
     justify-content: center;
@@ -609,6 +629,10 @@ padding-top: 2rem;
 
   .parallaxtextblock {
     height: 100vh;
+  }
+
+  .parallaxtextblock p {
+    font-size: 1rem;
   }
 }
 
@@ -774,6 +798,12 @@ background-size: cover;
 }
 
 @media (max-width: 1700px) {
+
+  .leftbox2 h2 {
+    margin: 0 5rem;
+    margin-bottom: 2rem;
+  }
+
   .leftbox2 p {
     margin: 0 5rem;
   }
@@ -812,25 +842,43 @@ background-size: cover;
     width: 100%;
     border-right: 2px solid #01FF9F;
   }
-}
 
-@media (max-width: 550px) {
-
-  .leftbox2 {
-    height: 120vh;
-  }
-
-  .leftbox2 h2 {
-    font-size: 1.5rem;
+  .mpbox2 {
+    padding: 0 0;
   }
 
   .leftbox2 p {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
   }
+
+}
+
+@media (max-width: 600px) {
+
+  .leftbox2 {
+    height: 100vh;
+  }
+
+.leftbox2 p {
+  font-size: 1.1rem;
+}
 
   .mpbox2button {
     padding-left: 120px;
   }
+}
+
+@media (max-width: 500px) {
+  .leftbox2 {
+    height: 120vh;
+  }
+}
+
+@media (max-width: 440px) {
+  .leftbox2 {
+    height: 140vh;
+  }
+
 }
 
 
@@ -838,7 +886,7 @@ background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 120vh;
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -848,8 +896,8 @@ background-size: cover;
 .parallax2box {
 display: grid;
 grid-template-columns: repeat(3, 270px);
-column-gap: 200px;
-row-gap: 70px;
+column-gap: 12.5rem;
+row-gap: 4.3rem;
 }
 
 .box {
@@ -918,6 +966,27 @@ row-gap: 70px;
   transform: rotateY(90deg);
 }
 
+@media (max-width: 1300px) {
+  .parallax2box {
+column-gap: 6.25rem;
+row-gap: 4rem;
+  }
+}
+
+@media (max-width: 1100px) {
+
+.parallax2 {
+  height: 140vh;
+}
+
+  .parallax2box {
+    grid-template-columns: 1fr 1fr;   /* одна колонка */
+    justify-items: center;        /* выравнивание карточек по центру */
+  }
+}
+
+
+
 @media (max-width: 900px) {
 
   .parallax2 {
@@ -925,6 +994,8 @@ row-gap: 70px;
   }
 
   .parallax2box {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
     grid-template-columns: 1fr;   /* одна колонка */
     column-gap: 0;                /* убираем горизонтальные промежутки */
     row-gap: 40px;                /* немного вертикального отступа */
@@ -935,8 +1006,6 @@ row-gap: 70px;
 
 .mpbox3 {
 display: flex;
-justify-content: center;
-flex-direction: row;
 padding: 0 5vw;
 }
 
@@ -954,6 +1023,7 @@ padding: 0 5vw;
   rgba(0, 0, 0, 1) 100%),
   url("../static/img/brain.png") center no-repeat;
   background-size: cover;
+  
 }
 
 .rightbox3 {
@@ -964,16 +1034,14 @@ border: 2px solid #01FF9F;
 background: linear-gradient(225deg, rgba(1, 255, 159, 0.3) 0%, rgba(0, 0, 0, 1) 45%);
 
 display: flex;
-flex-direction: column;
 justify-content: center;
 align-items: center;
-box-sizing: border-box;
 }
 
 .rightbox3text h2 {
   color: #01FF9F;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   font-size: 1.8rem;
 }
 
@@ -983,6 +1051,38 @@ box-sizing: border-box;
   max-width: 600px;
   text-align: justify;  
 }
+
+@media (max-width: 1200px)  {
+  .rightbox3text {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .leftbox3 {
+    display: none;
+  }
+  .rightbox3 {
+  width: 100%;
+}
+}
+
+@media (max-width:700px) {
+  .rightbox3 {
+    height: auto;
+  }
+
+.rightbox3 h2 {
+  margin-top: 2rem;
+}
+
+  .rightbox3 p {
+    margin-bottom: 2rem;
+  }
+}
+
+
+
 
 .mpbox4 {
 display: flex;
@@ -1004,14 +1104,13 @@ padding: 0 5vw;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 40px;
   box-sizing: border-box;
 }
 
 .leftbox4text h2 {
   color: #01FF9F;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 2rem;
   font-size: 1.8rem;
 }
 
@@ -1035,6 +1134,39 @@ background:radial-gradient(circle,
 url("../static/img/dragon.png") center no-repeat;
 background-size: contain;
 }
+
+@media (max-width: 1200px)  {
+  .leftbox4text {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .rightbox4 {
+    display: none;
+  }
+
+.leftbox4 {
+  width: 100%;
+  border-right: 2px solid #01FF9F;
+}
+}
+
+
+@media (max-width:700px) {
+  .leftbox4 {
+    height: auto;
+  }
+
+.leftbox4 h2 {
+  margin-top: 2rem;
+}
+
+  .leftbox4 p {
+    margin-bottom: 2rem;
+  }
+}
+
 
 .mpbox5 {
   position: relative;              /* чтобы ::before был относительно блока */
