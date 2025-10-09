@@ -602,8 +602,13 @@ padding-top: 2rem;
 }
 
 @media (max-width: 400px) {
+
+.parallax1 {
+  height: 120vh;
+}
+
   .parallaxtextblock {
-    height: 90vh;
+    height: 100vh;
   }
 }
 
@@ -767,6 +772,67 @@ background: radial-gradient(circle,
 url("../static/img/vr.jpg") center no-repeat;   
 background-size: cover;
 }
+
+@media (max-width: 1700px) {
+  .leftbox2 p {
+    margin: 0 5rem;
+  }
+}
+
+@media (max-width: 1530px) {
+  .leftbox2 {
+    width: 60%;
+  }
+
+  .rightbox2 {
+    width: 40%;
+  }
+}
+
+
+@media (max-width: 1300px) {
+  .leftbox2,
+  .rightbox2 {
+    height: 90vh;
+  }
+}
+
+@media (max-width: 1100px) {
+.leftbox2 p {
+  font-size: 1rem;
+}
+}
+
+@media (max-width: 900px) {
+  .rightbox2 {
+    display: none;
+  }
+
+  .leftbox2 {
+    width: 100%;
+    border-right: 2px solid #01FF9F;
+  }
+}
+
+@media (max-width: 550px) {
+
+  .leftbox2 {
+    height: 120vh;
+  }
+
+  .leftbox2 h2 {
+    font-size: 1.5rem;
+  }
+
+  .leftbox2 p {
+    font-size: 0.8rem;
+  }
+
+  .mpbox2button {
+    padding-left: 120px;
+  }
+}
+
 
 .parallax2 {
   display: flex;
