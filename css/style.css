@@ -597,12 +597,16 @@ padding-top: 2rem;
 
 @media (max-width: 600px) {
   .parallax1 {
+    height: auto;
     justify-content: center;
     padding-left: 0;
   }
 
 .parallaxtextblock {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
   width: 90%;
+  height: auto;
 } 
 
 .parallaxtextblock h2 {
@@ -611,30 +615,21 @@ padding-top: 2rem;
 }
 
 .parallaxtextblock p {
-  font-size: 0.9rem;
-  padding-left: 4rem  ;
+  font-size: 1rem;
+  padding-left: 4rem ;
+  margin-bottom: 3rem;
 }
 
 .textblockline {
-  height: 85%;
+  height: 90%;
   top: 40px;
+  left: 30px;
 }
 }
 
-@media (max-width: 400px) {
 
-.parallax1 {
-  height: 120vh;
-}
 
-  .parallaxtextblock {
-    height: 100vh;
-  }
 
-  .parallaxtextblock p {
-    font-size: 1rem;
-  }
-}
 
 
 .button-style2 {
@@ -855,29 +850,20 @@ background-size: cover;
 
 @media (max-width: 600px) {
 
-  .leftbox2 {
-    height: 100vh;
-  }
-
-.leftbox2 p {
-  font-size: 1.1rem;
+.leftbox2 {
+  height: auto;
 }
 
-  .mpbox2button {
-    padding-left: 120px;
-  }
+.leftbox2 h2 {
+  margin-top: 3rem;
 }
 
-@media (max-width: 500px) {
-  .leftbox2 {
-    height: 120vh;
-  }
+.mpbox2button {
+  margin-bottom: 3rem;
+  text-align: center;
+  padding-left: 0;
 }
 
-@media (max-width: 440px) {
-  .leftbox2 {
-    height: 140vh;
-  }
 
 }
 
