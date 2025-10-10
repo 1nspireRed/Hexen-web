@@ -1696,7 +1696,7 @@ background-size: cover;
 background-position: center;
 height: 150vh;
 width: 100%;
-padding: 15vh 10vw;
+padding: 15vh 5vw;
 display: flex;
 flex-direction: column;
 border-bottom: 2px solid #01FF9F;
@@ -1741,87 +1741,100 @@ border-bottom: 2px solid #01FF9F;
 
 
 .aboutusparallaxbottom {
-  height: 75vh;
   width: 100%;
   position: relative;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows:  auto auto;
+  gap: 0;
   justify-content: center;
   align-items: center;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
 }
 
 .aboutusparallaxbottomblock1,
 .aboutusparallaxbottomblock2,
 .aboutusparallaxbottomblock3 {
   position: relative;
-  height: 25vh;
-  width: 33%;
+  height: 30vh;
+  width: 100%;
   border: 2px solid #01FF9F;
   background: #000;
   
   display: flex;             
   flex-direction: column;     
-  justify-content: center;   
+  justify-content: flex-start;   
   align-items: flex-start;   
-  padding-left: 40px;        
+  padding: 0 2.5rem;
+
   box-sizing: border-box;
 }
 
+.aboutusparallaxbottomblock1 { grid-column: 1 / 2; grid-row: 2 / 3; }
+.aboutusparallaxbottomblock2 { grid-column: 2 / 3; grid-row: 2 / 3; }
+.aboutusparallaxbottomblock3 { grid-column: 3 / 4; grid-row: 2 / 3; }
+
+
 .corevalues {
-  position: absolute;
   color: #01FF9F;
   font-size: 18px;
   font-weight: 600;  
-  width: 300px;      
+  width: 18rem;      
   height: 50px;       
   background: #000;
   border: 2px solid #01FF9F;
+  border-bottom: none;
   border-radius: 10px 10px 0 0;
   padding: 0.5rem 0.5rem;
 
-  display: flex;          
-  box-sizing: border-box;  
-  top: 21%;
-  right: 79.75%;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  justify-self: start;
+  align-self: end;
 
 }
 
 .corevaluesmp {
-  position: absolute;
   color: #01FF9F;
   font-size: 18px;
   font-weight: 600;  
-  width: 300px;      
+  width: 18rem;      
   height: 50px;       
   background: #000;
   border: 2px solid #01FF9F;
+  border-bottom: none;
   border-radius: 10px 10px 0 0;
-  padding-top: 1rem;
+  padding: 0.5rem 0.5rem;
 
-  display: flex;          
-  box-sizing: border-box;  
-  top: -21%;
-  right: 46.9%;
-}
-
-
-
-.aboutusparallaxbottomblock1 h2,
-.aboutusparallaxbottomblock2 h2,
-.aboutusparallaxbottomblock3 h2 {
-  position: relative;
-  color: #01FF9F;
-  font-size: 28px;
-  margin-bottom: 20px;
-  margin-left: 1rem;
-  gap: 20px;
-  
-  display: flex;
-  align-items: center;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  justify-self: start;
+  align-self: end;
 }
 
 .titleline {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  height: 10vh;
+  margin-top: 2rem;
+}
+
+
+.titleline h2,
+.titleline h2,
+.titleline h2 {
+  position: relative;
+  color: #01FF9F;
+  font-size: 28px;
+  margin-left: 1rem;
+  margin-bottom: 1.5rem;
+  
+  display: flex;
+  align-items: center;
 }
 
 .abusparline {
@@ -1839,8 +1852,33 @@ border-bottom: 2px solid #01FF9F;
 .aboutusparallaxbottomblock3 p {
   color: #ccc;
   font-size: 18px;
-  max-width: 350px;
+  max-width: 30rem;
+  padding-bottom: 1rem;
 }
+
+@media (max-width:1100px) {
+
+.corevalues,
+.corevaluesmp {
+  width: 15rem;
+}
+
+  .aboutusparallaxbottomblock1,
+.aboutusparallaxbottomblock2,
+.aboutusparallaxbottomblock3 {
+  height: 40vh;
+}
+}
+
+@media (max-width: 950px) {
+  
+.aboutusparallaxbottomblock1,
+.aboutusparallaxbottomblock2,
+.aboutusparallaxbottomblock3 {
+  padding: 0 1rem;
+}
+}
+
 
 
 .solutionsbox {
