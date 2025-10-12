@@ -825,6 +825,7 @@ background-size: cover;
   justify-content: center;
   height: 120vh;
   width: 100%;
+  padding-bottom: 15vh;
   background-size: cover;
   background-position: center;
   flex-direction: column;
@@ -839,6 +840,7 @@ background-size: cover;
   margin-bottom: 5rem;
   font-size: 3rem;
   font-weight: 600;
+  margin-top: 10vh;
 }
 
 .parallax2box {
@@ -1281,24 +1283,23 @@ justify-content: center;
 } 
 
 
-@media (max-width: 1300px) {
+@media (max-width: 1700px) {
 .rightbox5block {
   width: 80%;
 }
 .rightbox5 {
+  min-height: 80vh;
   height: auto;
 }
 
 .rightbox5block {
+  min-height: 65vh;
   height: auto;
+  
 }
 
 .rightbox5block .slick-slide {
   height: auto;
-}
-
-.slide-header {
-  margin-bottom: 20px;
 }
 }
 
@@ -1306,6 +1307,9 @@ justify-content: center;
   .rightbox5block {
     width: 100%;
   }
+  .slide-header {
+  margin-bottom: 20px;
+}
 }
 
 @media (max-width: 900px) {
@@ -1366,6 +1370,7 @@ padding: 0 5vw;
   object-fit: contain;
   object-position: center;
   display: block;
+  z-index: 0;
 }
 
 .leftbox6 h2 {
@@ -1375,6 +1380,7 @@ padding: 0 5vw;
   top: 5%;
   transform: translateX(-50%);
   font-size: 1.8rem;
+  z-index: 1;
 }
 
 .rightbox6 {
@@ -1478,6 +1484,7 @@ background: #000;
 .leftbox7 h2 {
   color: #01FF9F;
   font-size: 1.5rem;
+  text-align: center;
 
 }
 
@@ -1584,7 +1591,7 @@ margin-bottom: 2vh;
 .container {
   display: flex;
   flex-direction: row;
-  padding: 5vh 25vh;
+  padding: 5vh 10vw;
 }
 
 .footer1 {
@@ -1609,7 +1616,7 @@ flex-direction: column;
 
 .footer1 p {
   color: #ccc;
-  margin-top: auto;
+  margin-top: 2.5rem;
   padding-left: 45px;
 }
 
@@ -1671,7 +1678,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
-padding: 0 50px;  
+padding: 0 1rem;  
 }
 
 .footer3 nav ul {
@@ -1701,9 +1708,49 @@ padding: 0 50px;
   color: #01FF9F;
   font-size: 20px;
   margin-bottom: 15px;
-  align-self: flex-start;
+  align-self: center;
   margin-left: 25px;
 }
+
+@media (max-width:1350px) {
+  .container {
+    padding: 5vh 2vw;
+  }
+}
+
+
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .footer1,
+  .footer2,
+  .footer3 {
+    width: 50%;
+    margin: 5vh 0;
+  }
+
+.footer1 img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  padding-left: 30px;
+}
+
+}
+
+@media (max-width: 385px) {
+    .footer1,
+  .footer2,
+  .footer3 {
+    width: 50%;
+    margin: 10vh 0;
+  }
+}
+
+
+
 
 
 .internalhero {
