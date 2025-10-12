@@ -1757,16 +1757,30 @@ padding: 0 1rem;
 
 }
 
-@media (max-width: 385px) {
-    .footer1,
+@media (max-width: 500px) {
   .footer2,
   .footer3 {
     width: 50%;
-    margin: 10vh 0;
+    margin: 5vh 0;
   }
+
+  .footer1 {
+    margin:5vh 0;
+    width: 70%;
+  }
+
 }
 
+@media (max-width: 385px) {
+  .footer1,
+  .footer2,
+  .footer3 {
+    margin: 10vh 0;
+  }
 
+
+
+}
 
 
 
