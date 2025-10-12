@@ -1761,18 +1761,17 @@ padding: 0 1rem;
   .footer2,
   .footer3 {
     width: 50%;
-    margin: 5vh 0;
+    margin-bottom: 5vh;
   }
 
   .footer1 {
-    margin:5vh 0;
+    margin-bottom: 10vh;
     width: 70%;
   }
 
 }
 
 @media (max-width: 385px) {
-  .footer1,
   .footer2,
   .footer3 {
     margin: 10vh 0;
