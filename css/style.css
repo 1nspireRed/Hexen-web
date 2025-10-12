@@ -219,7 +219,6 @@ font-style: italic;
 
 
 .mpbox {
-overflow-x: hidden;
 display: flex;
 justify-content: center;
 flex-direction: row;
@@ -481,6 +480,10 @@ margin-top: 6.5vh;
 
 @media (max-width:650px) {
 
+  .mpbox {
+    overflow-x: hidden;
+  }
+
 .rightbox {
   height: auto;
 }
@@ -527,8 +530,16 @@ margin-top: 6.5vh;
     margin-bottom: 5vh;
   }
 
+
+  .leftbox {
+    height: auto;
+    align-items: center;
+    justify-content: center;
+  }
+
   .catcitybutton {
     margin-top: 12rem;
+    margin-bottom: 1rem;
   }
 
 .section1 p,
