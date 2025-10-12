@@ -1436,7 +1436,6 @@ display: flex;
 justify-content: center;
 flex-direction: row;
 padding: 0 5vw;
-overflow-x: hidden;
 }
 
 .leftbox6 {
@@ -1500,6 +1499,7 @@ background: #000;
   .mpbox6 {
     flex-direction: column;
     height: auto;
+    overflow-x: hidden;
   }
 
   .leftbox6,
@@ -1536,7 +1536,7 @@ background: #000;
 
 
 .parallax3 {
-  height: 110vh;
+  height: 100vh;
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -1544,7 +1544,7 @@ background: #000;
 }
 
 .mpbox7 {
-  height: 100%;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
