@@ -250,6 +250,8 @@ align-items: center;
 justify-content: center;
 }
 .leftboxtext {
+  width: 100%;
+  height: auto;
   display: flex;
 align-items: center;
 justify-content: center;
@@ -463,6 +465,7 @@ margin-top: 6.5vh;
 
 @media (max-width: 800px) {
   
+  
   .section1,
   .section2,
   .section3,
@@ -538,7 +541,6 @@ margin-top: 6.5vh;
   }
 
   .catcitybutton {
-    margin-top: 12rem;
     margin-bottom: 1rem;
   }
 
