@@ -217,6 +217,23 @@ font-style: italic;
 
 }
 
+@media (max-width: 900px) {
+
+.hero {
+  background-position: center;
+  padding-left: 10px;
+}
+
+.hero_text h1 {
+  color: #ccc;
+  text-shadow:
+   0 0 9px #000,
+   0 0 9px #000,
+   0 0 9px #000;
+}
+
+}
+
 
 .mpbox {
 display: flex;
