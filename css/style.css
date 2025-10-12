@@ -891,7 +891,24 @@ row-gap: 4.3rem;
   border-radius: 10px 0 10px 0;
   padding: 0.9rem;
   text-align: center;
+  transition: 1s ease-in;
 }
+
+.box:hover {
+  background: linear-gradient(45deg,
+   rgba(1, 255, 159, 1) 0%,
+    rgba(0, 0, 0, 1) 40%, 
+    rgba(0, 0, 0, 1) 50%, 
+    rgba(1, 255, 159, 1) 100%),
+    radial-gradient(
+    circle at center,
+  rgba(0, 0, 0, 1) 0%,
+  rgba(0, 0, 0, 0.8) 50%,
+  rgba(1, 255, 159, 1) 100%
+);
+background-blend-mode: overlay;
+}
+
 
 .box::after {
   content: "";
@@ -926,7 +943,7 @@ row-gap: 4.3rem;
   inset: 0;
   display: grid;
   grid-template-columns: repeat(12, 1fr); /* количество полос */
-  z-index: 3; /* поверх всего контента */
+  z-index: 0; /* поверх всего контента */
   pointer-events: none;
   background: transparent;
 }
