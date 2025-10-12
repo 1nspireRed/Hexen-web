@@ -909,6 +909,11 @@ row-gap: 4.3rem;
 background-blend-mode: overlay;
 }
 
+.box:hover::after {
+  top: 0;
+  right: 0;
+}
+
 
 .box::after {
   content: "";
