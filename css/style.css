@@ -219,6 +219,7 @@ font-style: italic;
 
 
 .mpbox {
+overflow-x: hidden;
 display: flex;
 justify-content: center;
 flex-direction: row;
@@ -820,6 +821,7 @@ background-size: cover;
 
 
 .parallax2 {
+  overflow-x: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -958,6 +960,7 @@ row-gap: 4rem;
 .mpbox3 {
 display: flex;
 padding: 0 5vw;
+overflow-x: hidden;
 }
 
 .leftbox3 {
@@ -1350,10 +1353,12 @@ justify-content: center;
 
 
 .mpbox6 {
+max-width: 100%;
 display: flex;
 justify-content: center;
 flex-direction: row;
-padding: 0 5vw;
+padding: 0 ;
+overflow-x: hidden;
 }
 
 .leftbox6 {
@@ -2532,3 +2537,5 @@ width: 30%;
   background: #01FF9F;
   color: #000;
 }
+
+
