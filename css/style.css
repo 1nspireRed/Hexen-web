@@ -834,6 +834,9 @@ background-size: cover;
 
 .leftbox2 {
   height: auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.7) 80%),
+  url(../static/img/dragon.png) center no-repeat;
+  background-size: contain;
 }
 
 .leftbox2 h2 {
