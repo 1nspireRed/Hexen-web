@@ -960,7 +960,6 @@ row-gap: 4rem;
 .mpbox3 {
 display: flex;
 padding: 0 5vw;
-overflow-x: hidden;
 }
 
 .leftbox3 {
