@@ -860,6 +860,10 @@ background-size: cover;
   padding-left: 0;
 }
 
+.leftbox2text p {
+  margin: 0 2rem;
+  max-width: 40rem;
+}
 
 }
 
