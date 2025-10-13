@@ -2290,31 +2290,10 @@ border-bottom: 2px solid #01FF9F;
 
 }
 
-/*
-.mpparallaxbox {
-  height: 20vh;
-  width: 70vw;
-  background: #000;
-  border: 2px solid #01FF9F;
-  margin-top: 3vh;
-  padding: 3rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.mpparallaxbox h2 {
-  color: #01FF9F;
-  text-align: center;
-  padding: 1rem 5rem;
-}
-*/
-
-
 .solutionsbox {
-  height: 120vh;
+  height: auto;
   width: 100%;
-  padding: 0 10vw;
+  padding: 0 5vw;
   margin-top: -25vh;
   display: flex;
   flex-wrap: wrap;
@@ -2326,11 +2305,11 @@ border-bottom: 2px solid #01FF9F;
 .solutionsbox3,
 .solutionsbox4 {
   position: relative;
-  height: 60vh;
+  height: 65vh;
   width: 50%;
   border: 2px solid #01FF9F;
   background: #000;
-  padding: 30px 50px;
+  padding: 1rem 1rem;
 }
 
 .solutionsbox1 {
@@ -2353,6 +2332,7 @@ border-bottom: 2px solid #01FF9F;
   color: #01FF9F;
   font-size: 28px;
   margin-bottom: 30px;
+  margin-left: 1rem;
   gap: 20px;
   display: flex;
   align-items: center;
@@ -2369,6 +2349,41 @@ border-bottom: 2px solid #01FF9F;
   border-radius: 5px;
 }
 
+
+
+.solutionsbox1text nav ul li {  
+  position: relative;          
+  margin: 1rem;     
+  max-width: 600px;
+}
+
+.solutionsbox1text nav ul li h3 {
+  color: #01FF9F;
+  font-size: 1.3rem;
+  margin: 0.5rem 0;
+  display: inline;
+}
+
+.solutionsbox1text nav ul li::before {
+  content: "";
+  position: absolute;
+  width: 0.4rem;
+  height: 0.4rem;
+  background-color: #01FF9F;
+  border-radius: 50%;
+  top: 10px;
+  left: -15px;
+}
+
+
+.solutionsbox1text nav ul li p {
+  margin: 0;
+  color: #ccc;            
+  font-size: 1.1rem;
+  display: inline;
+}
+
+
 .solutionsbox1 p,
 .solutionsbox2 p,
 .solutionsbox3 p, 
@@ -2379,6 +2394,33 @@ border-bottom: 2px solid #01FF9F;
   line-height: 1.5;
   text-align: justify;
 }
+
+@media (max-width:1500px) {
+  .solutionsbox1,
+  .solutionsbox2,
+  .solutionsbox3,
+  .solutionsbox4 {
+    height: auto;
+  }
+}
+
+@media (max-width:1000px) {
+  .solutionsbox {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+
+    .solutionsbox1,
+  .solutionsbox2,
+  .solutionsbox3,
+  .solutionsbox4 {
+    width: 100%;
+    border: 2px solid #01FF9F;
+  }
+}
+
+
 
 .solutionsparallax {
   height: 100vh;
@@ -2397,7 +2439,7 @@ border-bottom: 2px solid #01FF9F;
 
 .solutionparallaxbox  {
   height: 25vh;
-  width: 60%;
+  width: 60vw;
   border: 2px solid #01FF9F;
   border-radius: 15px;
   background: rgba(0, 0, 0, 0.6);
@@ -2410,13 +2452,39 @@ border-bottom: 2px solid #01FF9F;
 
 .solutionparallaxboxtext {
   color: #01FF9F;
-  font-size: 24px;
+  font-size: 1.5rem;
   text-align: center;
 }
 
 .solutionparallaxbutton {
   margin-top: 25px;
 }
+
+
+@media (max-width:1000px) {
+.solutionparallaxbox {
+width: 80vw;
+}
+}
+
+@media (max-width:700px) {
+
+.solutionsparallax {
+  padding: 10vh 0;
+  height: auto;
+}
+
+  .solutionparallaxboxtext {
+    font-size: 1.2rem;
+  } 
+
+  .solutionparallaxbox {
+    height: auto;
+    padding: 1.5rem;
+  }
+
+}
+
 
 
 .careerhero {
@@ -2451,7 +2519,7 @@ border-bottom: 2px solid #01FF9F;
 
 .careerparallax {
   position: relative;
-  height: 200vh;
+  min-height: 200vh;
   width: 100%;
   background: radial-gradient(circle,
     rgba(0, 0, 0, 0.4) 50%,
@@ -2466,7 +2534,7 @@ border-bottom: 2px solid #01FF9F;
 
 .careerboxes {
   height: 140vh;
-  width: 100%;
+  width: 80vw;
   background: #000;
   border: 2px solid #01FF9F;
   padding: 0 5vw;
@@ -2474,7 +2542,7 @@ border-bottom: 2px solid #01FF9F;
   box-sizing: border-box;
 
   display: flex;
-  flex-direction: column; /* Текст сверху, сетка под ним */
+  flex-direction: column; 
   align-items: center;
 }
 
@@ -2494,9 +2562,9 @@ border-bottom: 2px solid #01FF9F;
 
 .careerboxes-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 колонки */
-  grid-template-rows: repeat(2, 1fr);    /* 2 строки */
-  width: 60%; /* немного уже, чтобы красиво стояло */
+  grid-template-columns: repeat(2, 1fr); 
+  grid-template-rows: repeat(2, 1fr);    
+  width: 55rem; 
   justify-items: center;
   margin-top: 60px;
   gap: 50px;
@@ -2542,6 +2610,37 @@ width: 30%;
   padding: 10px 30px;
 }
 
+@media (max-width:1100px) {
+
+.careerparallax {
+  height: auto;
+}
+.careerboxes {
+  height: auto;
+  padding-bottom: 5vh;
+  overflow-x: hidden;
+}
+  .careerboxes-grid {
+  grid-template-columns: 1fr; 
+  grid-template-rows: repeat(4, 1fr);   
+}
+  .careerbox {
+    width: 50%;
+  }
+}
+
+
+@media (max-width:600px) {
+  .careerboxes-grid {
+    width: 40rem;
+  }
+
+.careerboxes {
+  width: 100vw;
+}
+
+}
+
 .careerparallaxbox  {
   height: 25vh;
   width: 60%;
@@ -2557,7 +2656,7 @@ width: 30%;
 
 .careerparallaxboxtext {
   color: #01FF9F;
-  font-size: 24px;
+  font-size: 1.5rem;
   text-align: center;
 }
 
@@ -2565,6 +2664,33 @@ width: 30%;
   margin-top: 25px;
 }
 
+@media (max-width:1100px) {
+  .careerparallaxbox {
+    margin-bottom: 20vh;
+    width: 40rem;
+  }
+}
+
+@media (max-width:700px) {
+  .careerparallaxbox {
+    width: 35rem;
+  }
+
+  .careerparallaxboxtext {
+    font-size: 1.2rem;
+}
+}
+
+@media (max-width:600px) {
+  .careerparallaxbox {
+    width: 22rem;
+    height: auto;
+  }
+
+  .careerparallaxbutton {
+    margin-bottom: 15px;
+  }
+}
 
 .getstartedbox {
   height: 80vh;
