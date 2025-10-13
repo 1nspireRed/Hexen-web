@@ -725,8 +725,11 @@ flex-direction: column;
 .mpbox2 {
 display: flex;
 justify-content: center;
+align-self: center;
 flex-direction: row;
 padding: 0 5vw;
+width: 80vw;
+margin: 0 auto;
 }
 
 .leftbox2 {
@@ -846,6 +849,10 @@ background-size: cover;
 .leftbox2 h2 {
   margin-top: 3rem;
 }
+
+.leftbox2 p {
+    color: #fff;
+  }
 
 .mpbox2button {
   margin-bottom: 3rem;
@@ -1240,7 +1247,6 @@ background-size: contain;
   display: flex;
   justify-content: center;
   flex-direction: row;
-  padding: 0 5vw;
   padding-top: 10vh;
   background: url("../static/img/citymp.jpg");
   background-size: cover;
@@ -1266,12 +1272,14 @@ background-size: contain;
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  background: url("../static/img/aitree_transparent1.png") center no-repeat;
+  background: url("../static/img/aitree_transparent1.png") no-repeat;
   background-size: contain;
+  background-position: center;
   z-index: 2;
 }
 
 .rightbox5 {
+  padding-right: 5vw;
 position: relative;
 height: 80vh;
 width: 40%;
@@ -1418,6 +1426,9 @@ justify-content: center;
 @media (max-width: 500px) {
       .rightbox5block {
     width: 100%;
+  }
+  .rightbox5block p{
+    color: #fff;
   }
 
   .leftbox5 {
@@ -1677,7 +1688,7 @@ margin-bottom: 2vh;
 .container {
   display: flex;
   flex-direction: row;
-  padding: 5vh 10vw;
+  padding: 2vh 10vw;
 }
 
 .footer1 {
@@ -1754,6 +1765,7 @@ flex-direction: column;
   color: #01FF9F;
   font-size: 20px;
   margin-bottom: 10px;
+  margin-right: 50px;
 }
 
 
@@ -1762,9 +1774,8 @@ height: 25vh;
 width: 35%;
 display: flex;
 justify-content: center;
-align-items: center;
-flex-direction: column;
-padding: 0 1rem;  
+align-items: flex-start;
+flex-direction: column; 
 }
 
 .footer3 nav ul {
@@ -1794,9 +1805,9 @@ padding: 0 1rem;
   color: #01FF9F;
   font-size: 20px;
   margin-bottom: 15px;
-  align-self: center;
-  margin-left: 25px;
+  margin-left: 7px;
 }
+
 
 @media (max-width:1350px) {
   .container {
@@ -1827,16 +1838,35 @@ padding: 0 1rem;
 }
 
 @media (max-width: 500px) {
-  .footer2,
-  .footer3 {
+  .footer2 {
     width: 50%;
     margin-bottom: 5vh;
+  }
+
+  .footer2 h2 {
+    margin-left: 10px;
   }
 
   .footer1 {
     margin-bottom: 10vh;
     width: 70%;
   }
+
+
+
+
+
+  .footer3 {
+    width: 90%;
+    margin-bottom: 5vh;
+  }
+
+.footer2,
+.footer3 {
+  align-items: flex-start;
+  padding-left: 35px;
+}
+
 
 }
 
