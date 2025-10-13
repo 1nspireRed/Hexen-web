@@ -15,7 +15,6 @@
 
 html {
   max-width: 100%;
-  overflow-x: hidden;
 }
 
 html {
@@ -823,6 +822,7 @@ background-size: cover;
     width: 100%;
     border-right: 2px solid #01FF9F;
   }
+  
 
   .mpbox2 {
     padding: 0 0;
