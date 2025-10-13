@@ -1251,7 +1251,7 @@ background-size: contain;
   display: flex;
   justify-content: center;
   flex-direction: row;
-  padding-top: 10vh;
+  padding: 10vh 5vw;
   background: url("../static/img/citymp.jpg");
   background-size: cover;
   overflow: hidden;    
@@ -1401,11 +1401,15 @@ justify-content: center;
 }
 
 @media (max-width: 900px) {
+.rightbox5 {
+  width: 100%;
+}
+
 
   .leftbox5 {
     display: none;
   }
-  .rightbox5 {
+  .rightbox5block {
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -1435,9 +1439,7 @@ justify-content: center;
     color: #fff;
   }
 
-  .leftbox5 {
-    background-size: contain;
-  }
+
 }
   
 
