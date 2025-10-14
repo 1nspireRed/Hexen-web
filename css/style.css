@@ -216,7 +216,7 @@ font-style: italic;
 
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
 
 .hero {
   background: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0) 30%),
@@ -821,6 +821,14 @@ background-size: cover;
 }
 
 @media (max-width: 900px) {
+
+.leftbox2 {
+  height: auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.85) 80%),
+  url(../static/img/dragon.png) center no-repeat;
+  background-size: contain;
+}
+
   .rightbox2 {
     display: none;
   }
@@ -846,13 +854,6 @@ background-size: cover;
 }
 
 @media (max-width: 600px) {
-
-.leftbox2 {
-  height: auto;
-  background: linear-gradient(rgba(0, 0, 0, 0.85) 80%),
-  url(../static/img/dragon.png) center no-repeat;
-  background-size: contain;
-}
 
 .leftbox2 h2 {
   margin-top: 3rem;
@@ -1028,7 +1029,7 @@ row-gap: 4rem;
 
 
 
-@media (max-width: 900px) {
+@media (max-width: 750px) {
 
   .parallax2 {
     height: auto;
@@ -1413,20 +1414,27 @@ justify-content: center;
 .mpbox5 {
   flex-direction: column;
   background: #000;
+  align-items: center;
 }
+
 
 .rightbox5 {
   width: 100%;
   padding-left: 0;
+  padding-bottom: 12vh;
 }
 
   .leftbox5 {
     position: relative;
     height: 65vh;
-    width: 100%;
+    width: 70%;
     border: 1px solid #01FF9F;
     border-radius: 5% 5% 0 0;
     border-bottom: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5vw;
   }
   .rightbox5block {
     width: 100%;
@@ -1436,11 +1444,12 @@ justify-content: center;
   }
 
   .rightbox5 {
-    margin-bottom: 10vh;
+    margin-bottom: 0;
   }
 
     .rightbox5block {
     width: 70%;
+    padding-top: 0;
   }
 }
 
@@ -1452,6 +1461,8 @@ justify-content: center;
     color: #fff;
   }
 
+  .leftbox5 {
+    width: 100%;}
 
 }
   
@@ -1718,8 +1729,8 @@ flex-direction: column;
 }
 
 .footer1 img {
-  height: 80%;
-  width: 80%;
+  height: 7rem;
+  width: 20rem;
   object-fit: contain;
 }
 
@@ -1860,7 +1871,7 @@ a[href^="tel"] {
 
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .footer2 {
     width: 50%;
     margin-bottom: 5vh;
@@ -2237,7 +2248,7 @@ border-bottom: 2px solid #01FF9F;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 10vh;
+    margin-top: -15vh;
   }
 
   .corevalues,
@@ -2482,7 +2493,6 @@ border-bottom: 2px solid #01FF9F;
 .solutionparallaxbutton {
   margin-top: 25px;
 }
-
 
 @media (max-width:1000px) {
 .solutionparallaxbox {
@@ -2892,12 +2902,12 @@ width: 30%;
   }
 
   .getstartedleftbox {
-    width: 60%;
-    height: 75vh;
+    width: 80%;
+    height: 100vh;
   }
 
   .getstartedrightbox {
-    width: 60%;
+    width: 80%;
     margin-bottom: 15vh;
     height: auto;
   }
