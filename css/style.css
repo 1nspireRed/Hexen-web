@@ -219,7 +219,11 @@ font-style: italic;
 @media (max-width: 900px) {
 
 .hero {
-  background-position: center;
+  background: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0) 30%),
+     url("../static/img/vr.jpg");
+  background-position: 40% center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-left: 10px;
 }
 
@@ -835,13 +839,17 @@ background-size: cover;
     font-size: 1.2rem;
   }
 
+  .leftbox2 h2 {
+    text-align: center;
+  }
+
 }
 
 @media (max-width: 600px) {
 
 .leftbox2 {
   height: auto;
-  background: linear-gradient(rgba(0, 0, 0, 0.7) 80%),
+  background: linear-gradient(rgba(0, 0, 0, 0.85) 80%),
   url(../static/img/dragon.png) center no-repeat;
   background-size: contain;
 }
@@ -1252,6 +1260,7 @@ background-size: contain;
   justify-content: center;
   flex-direction: row;
   padding: 10vh 5vw;
+  padding-bottom: 0;
   background: url("../static/img/citymp.jpg");
   background-size: cover;
   overflow: hidden;    
@@ -1271,7 +1280,7 @@ background-size: contain;
 .leftbox5 {
   position: relative;
   height: 80vh;
-  width: 60%;
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1283,12 +1292,11 @@ background-size: contain;
 }
 
 .rightbox5 {
-  padding-right: 5vw;
 position: relative;
 height: 80vh;
 width: 50%;
 z-index: 2;
-
+padding-left: 5vw;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -1401,25 +1409,27 @@ justify-content: center;
 }
 
 @media (max-width: 900px) {
+
+.mpbox5 {
+  flex-direction: column;
+  background: #000;
+}
+
 .rightbox5 {
   width: 100%;
 }
 
-
   .leftbox5 {
-    display: none;
+    position: relative;
+    height: 65vh;
+    width: 100%;
+    border: 1px solid #01FF9F;
+    border-radius: 5%;
   }
   .rightbox5block {
     width: 100%;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(
-  to bottom,
-  rgba(0, 0, 0, 0) 6%,      
-  rgba(0, 0, 0, 0.4) 20%,   
-  rgba(0, 0, 0, 0.4) 80%,   
-  rgba(0, 0, 0, 0) 94%), url(../static/img/aitree_transparent1.png) center no-repeat;
-    background-size: contain;
   }
 
   .rightbox5 {
@@ -1577,7 +1587,7 @@ background: #000;
   border-right: none;
   background: #000;
   border-radius: 20px 0 0 20px;
-  padding: 2rem;
+  padding: 1.5rem;
 
   display: flex;
   justify-content: center;
@@ -1636,7 +1646,7 @@ align-items: center;
   }
 
   .leftbox7 h2 {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
   }
     .rightbox7 {
     width: 60%;
@@ -1719,7 +1729,7 @@ flex-direction: column;
 
 .footer1 p {
   color: #ccc;
-  margin-top: 1rem;
+  margin-top: 2rem;
   padding-left: 40px;
 }
 
@@ -1787,14 +1797,14 @@ flex-direction: column;
 .footer3 nav ul {
   list-style: none;
   padding: 0;
-  margin-bottom: 20px;
+  height: 165px;
 }
 
 .footer3 nav ul li {
-  display: flex;              /* делаем флекс */
-  align-items: center;        /* вертикально центрируем */
-  gap: 10px;                  /* отступ между иконкой и текстом */
-  margin-bottom: 10px;        /* расстояние между строками */
+  display: flex;              
+  align-items: center;      
+  gap: 10px;   
+  padding-top: 16px;                   
 }
 
 .footer3 nav ul li img {
@@ -1810,10 +1820,14 @@ flex-direction: column;
 .footer3 h2 {
   color: #01FF9F;
   font-size: 20px;
-  margin-bottom: 15px;
   margin-left: 7px;
+  margin-bottom: 10px;
 }
 
+
+a[href^="tel"] {
+  color: #01FF9F;
+}
 
 @media (max-width:1350px) {
   .container {
@@ -1856,6 +1870,10 @@ flex-direction: column;
   .footer1 {
     margin-bottom: 10vh;
     width: 70%;
+  }
+
+  .footer1 span {
+    margin-top: 25px;
   }
 
 
@@ -1969,7 +1987,7 @@ background: #000;
 
   .aboutusrightbox {
     width: 100%;
-    height: auto;
+    height: 50vh;
   }
   .aboutusleftbox {
     width: 100%;
@@ -1984,7 +2002,7 @@ background: #000;
 .aboutusparallax {
 background-size: cover;
 background-position: center;
-height: 150vh;
+height: 120vh;
 width: 100%;
 padding: 15vh 5vw;
 display: flex;
@@ -2025,13 +2043,13 @@ border-bottom: 2px solid #01FF9F;
 .aboutusparallaxtoptext p {
  color: #ccc;
  font-size: 32px;
- max-width: 25rem; 
+ max-width: 42rem; 
  background: rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width:500px) {
 .aboutusparallaxtop {
-  align-items: center;
+  align-items: flex-start;
 }
 
 .aboutusparallaxtoptext p {
@@ -2384,6 +2402,8 @@ border-bottom: 2px solid #01FF9F;
 }
 
 
+
+
 .solutionsbox1 p,
 .solutionsbox2 p,
 .solutionsbox3 p, 
@@ -2631,6 +2651,8 @@ width: 30%;
 
 
 @media (max-width:600px) {
+
+
   .careerboxes-grid {
     width: 40rem;
   }
@@ -2638,12 +2660,20 @@ width: 30%;
 .careerboxes {
   width: 100vw;
 }
+}
 
+.careerparmobile {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
 }
 
 .careerparallaxbox  {
   height: 25vh;
-  width: 60%;
+  width: 70vw;
   border: 2px solid #01FF9F;
   border-radius: 15px;
   background: rgba(0, 0, 0, 0.6);
@@ -2651,7 +2681,7 @@ width: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 30vh;
+  padding: 1rem;
 }
 
 .careerparallaxboxtext {
@@ -2683,8 +2713,18 @@ width: 30%;
 
 @media (max-width:600px) {
   .careerparallaxbox {
-    width: 22rem;
+    width: 90%;
     height: auto;
+    margin-bottom: 0;
+    background: rgba(0, 0, 0, 0.8) 80%;
+  }
+
+  .careerparmobile {
+    width: 100vw;
+    height: 60vh;
+    background: url(../static/img/careerparallax.png) center no-repeat;
+    background-size: cover; 
+
   }
 
   .careerparallaxbutton {
@@ -2693,11 +2733,11 @@ width: 30%;
 }
 
 .getstartedbox {
-  height: 80vh;
+  height: 100vh;
   width: 100%;
   margin-top: -25vh;
   padding: 0 5vw;
-  
+  border-bottom: 2px solid #01FF9F;
   display: flex;
   justify-content: center;
   flex-direction: row;
