@@ -1417,6 +1417,7 @@ justify-content: center;
 
 .rightbox5 {
   width: 100%;
+  padding-left: 0;
 }
 
   .leftbox5 {
@@ -1424,12 +1425,14 @@ justify-content: center;
     height: 65vh;
     width: 100%;
     border: 1px solid #01FF9F;
-    border-radius: 5%;
+    border-radius: 5% 5% 0 0;
+    border-bottom: none;
   }
   .rightbox5block {
     width: 100%;
     align-items: center;
     justify-content: center;
+    border-radius: 0 0 5% 5%;
   }
 
   .rightbox5 {
@@ -2740,6 +2743,7 @@ width: 30%;
   border-bottom: 2px solid #01FF9F;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: row;
 }
 
@@ -2783,15 +2787,18 @@ width: 30%;
 }
 
 .getstartedrightbox {
+  position: relative;
   height: 80vh;
   width: 70%;
   border: 2px solid #01FF9F;
   background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact-section {
   width: 60%;
-  margin: 0 auto;
   color: #fff;
   text-align: center;
   padding: 10vh 0;
@@ -2868,4 +2875,60 @@ width: 30%;
   color: #000;
 }
 
+@media (max-width:1280px) {
+  .getstartedleftbox {
+    width: 40%;
+  }
 
+  .getstartedrightbox {
+    width: 60%;
+  }
+}
+
+@media (max-width:950px) {
+  .getstartedbox {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .getstartedleftbox {
+    width: 60%;
+    height: 75vh;
+  }
+
+  .getstartedrightbox {
+    width: 60%;
+    margin-bottom: 15vh;
+    height: auto;
+  }
+  
+}
+
+@media (max-width:750px) {
+
+  .getstartedleftbox {
+    width: 80%;
+    height: 80vh;
+  }
+
+  .getstartedrightbox {
+    width: 80%;
+  }
+  
+}
+
+@media (max-width:500px) {
+    .getstartedleftbox {
+    width: 100%;
+
+  }
+
+  .getstartedrightbox {
+    width: 100%;
+  }
+
+  .contact-form input,
+.contact-form textarea {
+  width: 120%;
+}
+}
