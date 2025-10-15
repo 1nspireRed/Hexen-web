@@ -10,9 +10,6 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-  outline: 1px solid red;
-
-  
 }
 
 html {
@@ -841,6 +838,8 @@ background-size: cover;
 
   .mpbox2 {
     padding: 0 5vw;
+    min-height: 80vh;
+    height: auto;
   }
 
   .leftbox2 p {
@@ -874,6 +873,9 @@ background-size: cover;
   max-width: 40rem;
 }
 
+.leftbox2 {
+  min-height: 100vh;
+}
 }
 
 
@@ -1909,7 +1911,8 @@ a[href^="tel"] {
 
 }
 
-@media (max-width: 385px) {
+@media (max-width: 400px) {
+  .footer1,
   .footer2,
   .footer3 {
     margin: 10vh 0;
@@ -2582,7 +2585,11 @@ width: 80vw;
   }
 }
 
-
+@media (max-width:400px) {
+  .careerherotext {
+    margin-bottom: 200px;
+  }
+}
 
 .careerparallax {
   position: relative;
