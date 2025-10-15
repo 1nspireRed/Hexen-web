@@ -2009,12 +2009,12 @@ background: #000;
 }
 
 .aboutusrightbox video {
-  position: absolute;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
   display: block;
+  z-index: 0;
 }
 
 @media (max-width:800px) {

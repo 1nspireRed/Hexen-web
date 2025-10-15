@@ -59,32 +59,13 @@ Hexen was founded on the belief that artificial intelligence extends human reaso
     </div>
   </div>
 <div class="aboutusrightbox">
-  <video 
-    autoplay 
-    muted 
-    loop 
-    playsinline 
-    webkit-playsinline
-    preload="auto"
-  >
-    <source src="static/img/dragon_black1test.mp4" type="video/mp4">
+  <video autoplay muted loop playsinline>
+    <source src="static/img/dragon_black1.mp4" type="video/mp4">
     Your browser does not support the video.
   </video>
 </div>
 </div>
 
-<script>
-document.addEventListener("DOMContentLoaded", () => {
-  const video = document.querySelector(".aboutusrightbox video");
-  if (video) {
-    // Safari иногда "ставит на паузу" видео после автозапуска
-    const playVideo = () => video.play().catch(()=>{});
-    playVideo();
-    // повторить через короткую задержку, чтобы гарантировать запуск
-    setTimeout(playVideo, 500);
-  }
-});
-</script>
 
 <div class="aboutusparallax" data-parallax="scroll"
 data-image-src="static/img/AboutUs_Architecture.jpg" data-aos-offset="-200">
