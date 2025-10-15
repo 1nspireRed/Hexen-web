@@ -2218,7 +2218,23 @@ background: #000;
   }
 }
 
+@media (orientation: landscape) and (max-width:1000px) {
+  .aboutusbox {
+    margin-top: -100px;
+  }
 
+  .aboutusleftbox,
+  .aboutusrightbox {
+    height: 150vh;
+  }
+}
+
+@media (orientation: landscape) and (max-width:900px) {
+    .aboutusleftbox,
+  .aboutusrightbox {
+    height: 170vh;
+  }
+}
 
 
 .aboutusparallax {
@@ -2281,8 +2297,8 @@ border-bottom: 2px solid #01FF9F;
    0 0 9px #000;
    background: none;
 }
-
 }
+
 
 
 
@@ -2429,10 +2445,6 @@ border-bottom: 2px solid #01FF9F;
 }
 }
 
-
-
-
-
 @media (max-width: 770px) {
 
     .mpparallaxbox {
@@ -2505,8 +2517,6 @@ border-bottom: 2px solid #01FF9F;
   }
 }
 
-
-
 @media (max-width: 500px) {
   .aboutusparallaxbottomblock1,
   .aboutusparallaxbottomblock2,
@@ -2530,7 +2540,6 @@ border-bottom: 2px solid #01FF9F;
   }
 
 }
-
 
 @media (orientation: landscape) and (max-width:1000px) {
   .parallax1 {
@@ -2569,11 +2578,19 @@ border-bottom: 2px solid #01FF9F;
     .mpparallaxbox {
     height: 60vh;
   }
-
 }
 
+@media (orientation: landscape) and (max-width:1000px) {
+  .aboutusparallax {
+    height: 150vh;
+  }
+}
 
-
+@media (orientation: landscape) and (max-width:900px) {
+  .aboutusparallax {
+    height: 170vh;
+  }
+}
 
 
 .solutionsbox {
