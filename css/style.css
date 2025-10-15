@@ -2024,7 +2024,6 @@ a[href^="tel"] {
 @media (max-width: 800px) {
   .footer2 {
     width: 50%;
-    margin-bottom: 1vh;
   }
 
   .footer2 h2 {
@@ -2032,7 +2031,6 @@ a[href^="tel"] {
   }
 
   .footer1 {
-    margin-bottom: 5vh;
     width: 70%;
   }
 
@@ -2040,6 +2038,11 @@ a[href^="tel"] {
     margin-top: 25px;
   }
 
+    .footer1,
+  .footer2,
+  .footer3 {
+    margin: 10vh 0;
+  }
 
 
 
