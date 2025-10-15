@@ -1272,7 +1272,7 @@ padding: 2rem;
   }
 }
 
-@media (orientation: landscape) and (max-width:700px) {
+@media (orientation: landscape) and (max-width:800px) {
 
 }
 
@@ -1595,13 +1595,14 @@ justify-content: center;
 
 }
 
-@media (orientation: landscape) and (max-width:700px) {
-  .leftbox5 {
-    width: 100%;
+@media (orientation: landscape) and (max-width:800px) {
+
+  .rightbox5 {
+    padding-bottom: 60vh;
   }
 
   .rightbox5 {
-    padding-bottom: 50vh;
+    height: 190vh;
   }
 }
 
@@ -2083,7 +2084,7 @@ a[href^="tel"] {
 
 }
 
-@media (orientation: landscape) and (max-width:700px) {
+@media (orientation: landscape) and (max-width:800px) {
   .site-footer {
     height: auto;
   }
