@@ -805,10 +805,7 @@ background-size: cover;
 
 
 @media (max-width: 1300px) {
-  .leftbox2,
-  .rightbox2 {
-    height: 90vh;
-  }
+
 }
 
 @media (max-width: 1100px) {
