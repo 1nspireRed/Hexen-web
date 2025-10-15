@@ -242,7 +242,7 @@ font-style: italic;
  }
 }
 
-@media (orientation: landscape) and (max-width:900px) {
+/*@media (orientation: landscape) and (max-width:900px) {
   .hero {
     padding-left: 5%;
   }
@@ -256,7 +256,7 @@ margin-top: 10vh;
 padding: 0 5vw;
 
 }
-
+*/
 .mpbox h1,
 .mpbox h2 {
   font-family: "Space Grotesk", sans-serif;
@@ -612,7 +612,7 @@ margin-top: 6.5vh;
 }
 }
 
-@media (orientation: landscape) and (max-width:900px) {
+/*@media (orientation: landscape) and (max-width:900px) {
 
 .section1,
 .section2,
@@ -621,7 +621,7 @@ margin-top: 6.5vh;
   min-height: 100vh;
 }
 }
-
+*/
 @media (orientation: landscape) and (max-width:800px) {
 
 .section1,
@@ -937,14 +937,14 @@ background-size: cover;
   min-height: 140vh;
 }
 }
-
+/*
 @media (orientation: landscape) and (max-width:900px) {
 
 .leftbox2text p {
   max-width: 35rem;
 }
 }
-
+*/
 @media (orientation: landscape) and (max-width:800px) {
   .leftbox2,
 .rightbox2 {
@@ -1267,12 +1267,12 @@ padding: 2rem;
 }
 }
 
-@media (orientation: landscape) and (max-width:900px) {
+/*@media (orientation: landscape) and (max-width:900px) {
   .rightbox3 {
     height: 170vh;
   }
 }
-
+*/
 @media (orientation: landscape) and (max-width:700px) {
 
 }
@@ -1587,13 +1587,13 @@ justify-content: center;
   }
 }
 
-@media (orientation: landscape) and (max-width:900px) {
+/*@media (orientation: landscape) and (max-width:900px) {
 
 .rightbox5block {
   width: 100%;
 }
 }
-
+*/
 @media (orientation: landscape) and (max-width:700px) {
   .leftbox5 {
     width: 100%;
@@ -1848,13 +1848,13 @@ height: 80vh;
   }
 }
 
-@media (orientation: landscape) and (max-width:900px) {
+/*@media (orientation: landscape) and (max-width:900px) {
     .rightbox7,
   .leftbox7 {
 height: 90vh;
   }
 }
-
+*/
 
 
 .site-footer {
@@ -2546,7 +2546,7 @@ border-bottom: 2px solid #01FF9F;
 
 }
 
-@media (orientation: landscape) and (max-width:900px) {
+/*@media (orientation: landscape) and (max-width:900px) {
 
 
     .aboutusparallaxbottomblock1,
@@ -2556,7 +2556,7 @@ border-bottom: 2px solid #01FF9F;
     height: 60vh;
   }
 }
-
+*/
 @media (orientation: landscape) and (max-width:700px) {
 
   .parallax1 {
