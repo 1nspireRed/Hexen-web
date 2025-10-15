@@ -243,7 +243,10 @@ font-style: italic;
 @media (orientation: landscape) and (max-width:1000px) {
  .hero {
   padding-bottom: 0;
+  padding-left: 10%;
  }
+
+
 }
 
 @media (orientation: landscape) and (max-width:900px) {
@@ -929,15 +932,37 @@ background-size: cover;
 }
 
 
+@media (orientation: landscape) and (max-width:1200px) {
+
+.mpbox2 {
+  min-height: 90vh;
+}
+
+.leftbox2,
+.rightbox2 {
+  min-height: 90vh;
+}
+
+
+}
+
 @media (orientation: landscape) and (max-width:1000px) {
 
 .mpbox2 {
   min-height: 150vh;
 }
 
+.leftbox2 {
+  width: 55%;
+}
+
+.rightbox2 {
+  width: 45%;
+}
+
 .leftbox2,
 .rightbox2 {
-  min-height: 140vh;
+  min-height: 150vh;
 }
 }
 
@@ -1257,7 +1282,19 @@ padding: 2rem;
   }
 }
 
+@media (orientation: landscape) and (max-width:1200px) {
 
+.mpbox3 {
+  height: 90vh;
+}
+
+
+.leftbox3,
+.rightbox3 {
+  height: 90vh;
+}
+
+}
 
 @media (orientation: landscape) and (max-width:1000px) {
 
@@ -1576,14 +1613,21 @@ justify-content: center;
 }
   
 
+@media (orientation: landscape) and (max-width:1200px) {
+  .mpbox5 {
+    height: 100vh;
+  }
+}
+
 @media (orientation: landscape) and (max-width:1000px) {
 
-  .parallax3 {
-    min-height: 150vh;
-  }
+.mpbox5 {
+  background: #000;
+}
   .rightbox5 {
     height: 150vh;
   }
+  
 
   .leftbox5 {
     margin-top: 150px;
@@ -2236,7 +2280,7 @@ background: #000;
 @media (orientation: landscape) and (max-width:900px) {
     .aboutusleftbox,
   .aboutusrightbox {
-    height: 170vh;
+    height: 180vh;
   }
 }
 
@@ -2554,7 +2598,7 @@ border-bottom: 2px solid #01FF9F;
   .aboutusparallaxbottomblock2,
   .aboutusparallaxbottomblock3 {
 
-    height: 50vh;
+    height: 60vh;
   }
 
   .mpparallaxbox {
@@ -2569,7 +2613,7 @@ border-bottom: 2px solid #01FF9F;
     .aboutusparallaxbottomblock1,
   .aboutusparallaxbottomblock2,
   .aboutusparallaxbottomblock3 {
-    height: 60vh;
+    height: 70vh;
   }
 }
 
@@ -3084,6 +3128,13 @@ width: 90px;
 
   .careerparallaxbutton {
     margin-bottom: 15px;
+  }
+}
+
+@media (orientation: landscape) and (max-width:1200px) {
+
+  .careerparallaxbox {
+    margin-top: 25vh;
   }
 }
 
