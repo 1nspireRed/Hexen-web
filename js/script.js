@@ -158,12 +158,3 @@ onScroll(); // инициализация при загрузке
   }
 });
 
-
-document.addEventListener('DOMContentLoaded', function() {
-  const vid = document.querySelector('.aboutusrightbox video');
-  if (vid) {
-    vid.play().catch(() => {
-      // ничего страшного — Safari заблокировал автозапуск, пользователь запустит вручную
-    });
-  }
-});
