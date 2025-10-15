@@ -2025,6 +2025,7 @@ a[href^="tel"] {
   .footer2 {
     width: 50%;
     margin-bottom: 1vh;
+    margin-top: 8vh;
   }
 
   .footer2 h2 {
