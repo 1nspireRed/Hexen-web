@@ -1013,7 +1013,7 @@ background-size: cover;
   margin-bottom: 10vh;
   font-size: 3rem;
   font-weight: 600;
-  margin-top: 10vh;
+  margin-top: 8vh;
 }
 
 .parallax2box {
@@ -1116,7 +1116,7 @@ background-blend-mode: overlay;
 @media (max-width: 1700px) {
   .parallax2 {
     padding-bottom: 25vh;
-    padding-top: 5vh;
+    padding-top: 9.5vh;
   }
 
 }
@@ -2048,6 +2048,17 @@ flex-direction: column;
 
 a[href^="tel"] {
   color: #01FF9F;
+}
+
+@media (max-width:1700px) {
+  .container {
+    padding-bottom: 7vh;
+  }
+
+  .footer2,
+  .footer3 {
+    margin-top: 3vh;
+  }
 }
 
 @media (max-width:1350px) {
