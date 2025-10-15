@@ -2012,7 +2012,7 @@ background: #000;
   position: absolute;
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
   display: block;
 }
@@ -2024,7 +2024,7 @@ background: #000;
 
   .aboutusrightbox {
     width: 100%;
-    height: 50vh;
+    min-height: 70vh;
   }
   .aboutusleftbox {
     width: 100%;
