@@ -234,9 +234,19 @@ font-style: italic;
    0 0 9px #000,
    0 0 9px #000;
 }
-
 }
 
+@media (orientation: landscape) and (max-width:1000px) {
+ .hero {
+  padding-bottom: 0;
+ }
+}
+
+@media (orientation: landscape) and (max-width:900px) {
+  .hero {
+    padding-left: 5%;
+  }
+}
 
 .mpbox {
 display: flex;
@@ -577,7 +587,50 @@ margin-top: 6.5vh;
   }
 }
 
+@media (orientation: landscape) and (max-width:1000px) {
 
+.leftbox {
+  min-height: 80vh;
+}
+
+.rightbox {
+  height: auto;
+}
+
+
+.leftpart,
+.rightpart {
+  height: auto;
+  padding: 10vh 0;
+}
+
+.section1,
+.section2,
+.section3,
+.section4 {
+  min-height: 80vh;
+}
+}
+
+@media (orientation: landscape) and (max-width:900px) {
+
+.section1,
+.section2,
+.section3,
+.section4 {
+  min-height: 100vh;
+}
+}
+
+@media (orientation: landscape) and (max-width:800px) {
+
+.section1,
+.section2,
+.section3,
+.section4 {
+  min-height: 110vh;
+}
+}
 
 .parallax1 {
 display: flex;
@@ -608,9 +661,6 @@ flex-direction: column;
   text-align: center;
   padding: 1rem 5rem;
 }
-
-
-
 
 .button-style2 {
   font-size: 12px;
@@ -876,6 +926,33 @@ background-size: cover;
 }
 
 
+@media (orientation: landscape) and (max-width:1000px) {
+
+.mpbox2 {
+  min-height: 150vh;
+}
+
+.leftbox2,
+.rightbox2 {
+  min-height: 140vh;
+}
+}
+
+@media (orientation: landscape) and (max-width:900px) {
+
+.leftbox2text p {
+  max-width: 35rem;
+}
+}
+
+@media (orientation: landscape) and (max-width:800px) {
+  .leftbox2,
+.rightbox2 {
+  min-height: 170vh;
+}
+}
+
+
 .parallax2 {
   display: flex;
   align-items: center;
@@ -1045,6 +1122,16 @@ row-gap: 4rem;
 }
 
 
+
+@media (orientation: landscape) and (max-width:1000px) {
+
+  .parallax2 {
+    height: auto;
+  }
+
+}
+
+
 .mpbox3 {
 display: flex;
 padding: 0 5vw;
@@ -1168,6 +1255,27 @@ padding: 2rem;
 }
 
 
+
+@media (orientation: landscape) and (max-width:1000px) {
+
+.mpbox3 {
+  height: auto;
+}
+
+.rightbox3 {
+  height: 150vh;
+}
+}
+
+@media (orientation: landscape) and (max-width:900px) {
+  .rightbox3 {
+    height: 170vh;
+  }
+}
+
+@media (orientation: landscape) and (max-width:700px) {
+
+}
 
 
 .mpbox4 {
@@ -1407,7 +1515,7 @@ justify-content: center;
 }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 800px) {
 
 .mpbox5 {
   flex-direction: column;
@@ -1465,8 +1573,36 @@ justify-content: center;
 }
   
 
+@media (orientation: landscape) and (max-width:1000px) {
 
+  .parallax3 {
+    min-height: 150vh;
+  }
+  .rightbox5 {
+    height: 150vh;
+  }
 
+  .leftbox5 {
+    margin-top: 150px;
+  }
+}
+
+@media (orientation: landscape) and (max-width:900px) {
+
+.rightbox5block {
+  width: 100%;
+}
+}
+
+@media (orientation: landscape) and (max-width:700px) {
+  .leftbox5 {
+    width: 100%;
+  }
+
+  .rightbox5 {
+    padding-bottom: 50vh;
+  }
+}
 
 
 .mpbox6 {
@@ -1705,6 +1841,19 @@ margin-bottom: 2vh;
 }
 }
 
+@media (orientation: landscape) and (max-width:1000px) {
+  .rightbox7,
+  .leftbox7 {
+height: 80vh;
+  }
+}
+
+@media (orientation: landscape) and (max-width:900px) {
+    .rightbox7,
+  .leftbox7 {
+height: 90vh;
+  }
+}
 
 
 
@@ -1918,6 +2067,38 @@ a[href^="tel"] {
 
 
 }
+
+@media (orientation: landscape) and (max-width:1000px) {
+  
+  .footer2,
+  .footer3 {
+    margin-top: 20vh;
+  }
+
+  .footer2 h2 {
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+  }
+
+}
+
+@media (orientation: landscape) and (max-width:700px) {
+  .site-footer {
+    height: auto;
+  }
+
+  .footer1 img {
+    height: 7rem;
+    width: 17rem;
+  }
+
+
+  .footer2,
+  .footer3 {
+    padding-top: 200px;
+  }
+}
+
 
 
 
@@ -2248,7 +2429,7 @@ border-bottom: 2px solid #01FF9F;
 
 
 
-@media (max-width: 850px) {
+@media (max-width: 800px) {
 
     .mpparallaxbox {
     margin-bottom: 10vh;
@@ -2345,6 +2526,52 @@ border-bottom: 2px solid #01FF9F;
   }
 
 }
+
+
+@media (orientation: landscape) and (max-width:1000px) {
+  .parallax1 {
+    min-height: 150vh;
+  }
+
+  .aboutusparallaxbottomblock1,
+  .aboutusparallaxbottomblock2,
+  .aboutusparallaxbottomblock3 {
+
+    height: 50vh;
+  }
+
+  .mpparallaxbox {
+    height: 50vh;
+  }
+
+}
+
+@media (orientation: landscape) and (max-width:900px) {
+
+
+    .aboutusparallaxbottomblock1,
+  .aboutusparallaxbottomblock2,
+  .aboutusparallaxbottomblock3 {
+
+    height: 60vh;
+  }
+}
+
+@media (orientation: landscape) and (max-width:700px) {
+
+  .parallax1 {
+    min-height: 300vh;
+  }
+
+    .mpparallaxbox {
+    height: 60vh;
+  }
+
+}
+
+
+
+
 
 .solutionsbox {
   height: auto;
