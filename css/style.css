@@ -188,7 +188,11 @@ header nav {
   }
 }
 
-
+@media (orientation: landscape) and (max-width:800px) {
+  header {
+    padding-top: 0;
+  }
+}
 
 
 
@@ -2592,6 +2596,15 @@ border-bottom: 2px solid #01FF9F;
   }
 }
 
+@media (orientation: landscape) and (max-width:800px) {
+  .aboutusparallax {
+    height: auto;
+  }
+
+  .aboutusparallaxbottom {
+    margin-top: 20vh;
+  }
+}
 
 .solutionsbox {
   height: auto;
@@ -2793,7 +2806,18 @@ width: 80vw;
     height: auto;
     padding: 1.5rem;
   }
+}
 
+@media (orientation: landscape) and (max-width:1000px) {
+  .solutionparallaxbox {
+    height: 40vh;
+  }
+}
+
+@media (orientation: landscape) and (max-width:800px) {
+  .solutionsbox {
+    margin-top: -10vh;
+  }
 }
 
 
@@ -2839,6 +2863,13 @@ width: 80vw;
     margin-bottom: 200px;
   }
 }
+
+@media (orientation: landscape) and (max-width:1000px) {
+  .careerherotext {
+    margin-bottom: 60px;
+  }
+}
+
 
 .careerparallax {
   position: relative;
@@ -3056,6 +3087,12 @@ width: 90px;
   }
 }
 
+@media (orientation: landscape) and (max-width:1000px) {
+  .careerparallaxbox {
+    height: 40vh;
+  }
+}
+
 .getstartedbox {
   height: 100vh;
   width: 100%;
@@ -3083,6 +3120,7 @@ width: 90px;
   width: 100%;
   flex-shrink: 0;
   margin-top: 50px;
+  z-index: 1;
 
   display: flex;
   justify-content: center;
@@ -3264,5 +3302,23 @@ width: 90px;
 .contact-form label {
   margin-left: -20px;
 }
+}
 
+
+@media (orientation: landscape) and (max-width:1000px) {
+  .getstartedleftbox,
+  .getstartedrightbox {
+    width: 60%;
+  }
+
+  .getstartedleftbox {
+    height: 150vh;
+  }
+}
+
+@media (orientation: landscape) and (max-width:900px) {
+  .getstartedleftbox {
+    height: 170vh;
+    z-index: -1;
+  }
 }
