@@ -556,7 +556,7 @@ margin-top: 6.5vh;
   .section2,
   .section3,
   .section4 { 
-    height: 45vh;
+    height: 50vh;
     width: 70%;
     margin-top: 0;
   }
@@ -779,7 +779,7 @@ flex-direction: column;
 
 
 .mpbox2 {
-  height: 70vh;
+  height: 75vh;
 display: flex;
 justify-content: center;
 align-self: center;
@@ -791,7 +791,7 @@ margin: 0 auto;
 
 .leftbox2 {
 position: relative;
-height: 70vh;
+height: 75vh;
 width: 65%;
 border: 2px solid #01FF9F;
 border-right: none;
@@ -822,7 +822,7 @@ justify-content: center;
 }
 
 .rightbox2 {
-height: 70vh;
+height: 75vh;
 width: 35%;
 border: 2px solid #01FF9F;   
 background: radial-gradient(circle,
@@ -836,12 +836,12 @@ background-size: cover;
 @media (max-width: 1700px) {
 
   .mpbox2 {
-    height: 80vh;
+    height: 85vh;
   }
 
 .rightbox2,
 .leftbox2 {
-  height: 80vh;
+  height: 85vh;
 }
 
   .leftbox2 h2 {
@@ -1010,10 +1010,10 @@ background-size: cover;
 
 .parallax2 h2 {
   color: #01FF9F;
-  margin-bottom: 5rem;
+  margin-bottom: 10vh;
   font-size: 3rem;
   font-weight: 600;
-  margin-top: 15vh;
+  margin-top: 10vh;
 }
 
 .parallax2box {
@@ -1119,9 +1119,6 @@ background-blend-mode: overlay;
     padding-top: 5vh;
   }
 
-  .parallax2 h2{
-    margin-bottom: 2rem;
-  }
 }
 
 @media (max-width: 1300px) {
@@ -2101,15 +2098,12 @@ a[href^="tel"] {
     .footer1,
   .footer2,
   .footer3 {
-    margin: 10vh 0;
+    margin: 5vh 0;
   }
-
-
-
 
   .footer3 {
     width: 90%;
-    margin-bottom: 5vh;
+    margin-top: 0;
   }
 
 .footer2,
@@ -2855,7 +2849,7 @@ width: 80vw;
 
 .solutionsparallax {
   padding: 10vh 0;
-  height: auto;
+  height: 45vh;
 }
 
   .solutionparallaxboxtext {
@@ -3122,6 +3116,7 @@ width: 90px;
 }
 
 @media (max-width:600px) {
+
   .careerparallaxbox {
     width: 90%;
     height: auto;
@@ -3131,10 +3126,9 @@ width: 90px;
 
   .careerparmobile {
     width: 100vw;
-    height: 60vh;
+    height: 70vh;
     background: url(../static/img/careerparallax.png) center no-repeat;
     background-size: cover; 
-
   }
 
   .careerparallaxbutton {
