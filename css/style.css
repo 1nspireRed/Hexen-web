@@ -3402,8 +3402,8 @@ width: 90px;
   backface-visibility: hidden;
 }
 
-.parallax1, .parallax2, 
-.parallax3, .aboutusparallax, 
-.solutionsparallax, .careerparallax {
+.parallax1 *, .parallax2 *, 
+.parallax3 *, .aboutusparallax *, 
+.solutionsparallax *, .careerparallax * {
   will-change: transform;
 }
