@@ -3401,3 +3401,9 @@ width: 90px;
   transform: translateZ(0);
   backface-visibility: hidden;
 }
+
+.parallax1, .parallax2, 
+.parallax3, .aboutusparallax, 
+.solutionsparallax, .careerparallax {
+  will-change: transform;
+}
