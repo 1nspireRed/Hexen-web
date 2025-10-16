@@ -639,15 +639,15 @@ margin-top: 6.5vh;
 }
 
 .parallax1 {
+  position: relative;
 display: flex;
-background-size: cover;
-background-position: center;
 height: 100vh;
 width: 100%;
 align-items: center;
 justify-content: center;
 padding: 0 5vw;
 flex-direction: column;
+overflow: hidden;
 }
 
 .mpparallaxbox {
@@ -3393,7 +3393,7 @@ width: 90px;
 }
 
 
-.parallax1, .parallax2, 
+.parallax1, .parallax2,
 .parallax3, .aboutusparallax, 
 .solutionsparallax, .careerparallax 
  {
@@ -3402,7 +3402,7 @@ width: 90px;
   backface-visibility: hidden;
 }
 
-.parallax1 *, .parallax2 *, 
+.parallax1 *,
 .parallax3 *, .aboutusparallax *, 
 .solutionsparallax *, .careerparallax * {
   will-change: transform;

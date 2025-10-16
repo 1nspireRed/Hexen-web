@@ -96,7 +96,7 @@ const showThresholdTop = 80;            // зона сверху, где header 
 function onScroll() {
   const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
-  // ВСЕГДА показывать хедер, если мы в верхней зоне страницы
+
   if (scrollTop <= showThresholdTop) {
     header.style.top = "0";
     header.style.opacity = "1";
@@ -105,13 +105,13 @@ function onScroll() {
     return;
   }
 
-  // Скроллим вниз
+
   if (scrollTop > lastScrollTop) {
     scrollDelta = 0;
     header.style.top = "-125px";
     header.style.opacity = "0";
   }
-  // Скроллим вверх
+
   else if (scrollTop < lastScrollTop) {
     scrollDelta += (lastScrollTop - scrollTop);
     if (scrollDelta > scrollUpThreshold) {
@@ -130,15 +130,15 @@ onScroll(); // инициализация при загрузке
 
 (function() {
     emailjs.init({
-      publicKey: "HHJ9YzpZrM8tcbJ76" // например: "y4hS5vXg7q2k5abcD"
+      publicKey: "HHJ9YzpZrM8tcbJ76"
     });
   })();
 
   // Отправка формы
   document.querySelector(".contact-form").addEventListener("submit", function(e) {
-    e.preventDefault(); // блокируем перезагрузку страницы
+    e.preventDefault();
 
-    // Отправляем форму через EmailJS
+
     emailjs.sendForm("service_npwq7t5", "template_xkkq6im", this)
       .then(() => {
         alert("✅ Your message has been sent!");
