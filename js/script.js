@@ -158,3 +158,27 @@ onScroll(); // инициализация при загрузке
   }
 });
 
+
+var scene = document.getElementById('scene');
+var parallaxInstance = new Parallax(scene, {
+  relativeInput: true,
+  hoverOnly: false,
+  scalarX: 5, // меньше — плавнее
+  scalarY: 5,
+  frictionX: 0.2, // от 0.1 до 0.3 — оптимально
+  frictionY: 0.2,
+  limitX: 30, // ограничение смещения
+  limitY: 30
+});
+
+
+let ticking = false;
+scene.addEventListener('mousemove', (e) => {
+  if (!ticking) {
+    window.requestAnimationFrame(() => {
+      parallaxInstance.update(e);
+      ticking = false;
+    });
+    ticking = true;
+  }
+});
