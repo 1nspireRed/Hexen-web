@@ -3409,7 +3409,7 @@ width: 90px;
 }
 
 
-@media (min-width:1200px) and (max-width: 1299px) {
+@media (min-width:1200px) and (max-width: 1350px) {
   .parallax-mirror {
     display: none !important;
   }
