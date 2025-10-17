@@ -18,14 +18,6 @@ $(document).ready(function(){
   });
 });
 
-var rellax = new Rellax('.rellax');
-
-
-
-
-
-
-
 document.addEventListener("DOMContentLoaded", () => {
   const box = document.querySelector(".mpbox5");
 
