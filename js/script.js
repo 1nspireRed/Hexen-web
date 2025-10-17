@@ -6,17 +6,24 @@ mirror: true,
 
 $(document).ready(function(){
   $('.rightbox5block').slick({
-    slidesToShow: 1,        // один слайд за раз
+    slidesToShow: 1,        
     slidesToScroll: 1,
     dots: true,   
-    arrows: false,          // точки навигации
-    infinite: true,         // зацикливание
-    autoplay: true,         // автопрокрутка
-    autoplaySpeed: 3000,    // каждые 3 секунды
-    fade: true,             // плавное переключение
+    arrows: false,          
+    infinite: true,         
+    autoplay: true,         
+    autoplaySpeed: 3000,    
+    fade: true,             
     cssEase: 'linear'
   });
 });
+
+var rellax = new Rellax('.rellax');
+
+
+
+
+
 
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -26,9 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
     entries.forEach(entry => {
       let ratio = entry.intersectionRatio; // сколько % блока видно (0 → 1)
 
-      // Чем больше видно блока, тем сильнее затемняем фон
-      // opacity = 1 - ratio → когда блок на 100% в экране → overlay=0 (виден фон)
-      // когда блок только на 20% → overlay≈0.8 (почти черный)
+
       let opacity = ratio;
 
       opacity = Math.min(Math.max(opacity, 0), 1);
@@ -182,5 +187,11 @@ scene.addEventListener('mousemove', (e) => {
     ticking = true;
   }
 });
+
+
+
+
+
+
 
 
