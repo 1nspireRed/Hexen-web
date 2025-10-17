@@ -3421,40 +3421,5 @@ width: 90px;
 }
 
 
-@media (min-width:1280px) and (max-width: 1400px) {
-  .parallax-mirror {
-    display: none !important;
-  }
 
-  .parallax1 {
-    background: url("../static/img/parallax1.png") center no-repeat;
-    background-size: contain;
-  }
-
-  .parallax2 {
-    background: url("../static/img/parallax2.jpg") center no-repeat;
-    background-size: cover;
-  }
-
-  .parallax3 {
-    background: url("../static/img/parallax3.jpg") center no-repeat;
-    background-size: cover;
-  }
-
-  .aboutusparallax {
-    background: url("../static/img/AboutUs_Architecture.jpg") center no-repeat;
-    background-size: cover;
-  }
-
-  .solutionsparallax {
-    background: url("../static/img/SolutionsPage_Cybercity.jpg") center no-repeat;
-    background-size: cover;
-  }
-
-
-  .careerparallax {
-    background: url("../static/img/careerparallax.png") center no-repeat;
-    background-size: cover;
-  }
-}
 
