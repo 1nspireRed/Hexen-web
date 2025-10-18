@@ -898,7 +898,7 @@ background-size: cover;
 .leftbox2 {
   height: auto;
   background: linear-gradient(rgba(0, 0, 0, 0.7) 80%),
-  url(../static/img/dragon.png) center no-repeat;
+  url(../static/img/dragon.webp) center no-repeat;
   background-size: contain;
 }
 
@@ -1387,7 +1387,7 @@ background:radial-gradient(circle,
   rgba(0, 0, 0, 0.3) 60%,
   rgba(0, 0, 0, 1) 75%,
   rgba(0, 0, 0, 1) 100%),
-url("../static/img/dragon.png") center no-repeat;
+url("../static/img/dragon.webp") center no-repeat;
 background-size: contain;
 }
 
@@ -1659,13 +1659,25 @@ justify-content: center;
 
 @media (orientation: landscape) and (max-width:900px) {
 
+.mpbox5 {
+  height: 200vh;
+}
+
 .rightbox5 {
-    height: 170vh;
+    height: 160vh;
+  }
+
+  .rightbox5block {
+    height: 160vh;
   }
 
 }
 
 @media (orientation: landscape) and (max-width:800px) {
+
+.mpbox5 {
+  height: auto;
+}
 
   .rightbox5 {
     padding-bottom: 60vh;
@@ -1673,6 +1685,10 @@ justify-content: center;
 
   .rightbox5 {
     height: 190vh;
+  }
+
+    .rightbox5block {
+    height: 180vh;
   }
 }
 
