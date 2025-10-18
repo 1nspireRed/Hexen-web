@@ -201,7 +201,7 @@ header nav {
     height: 100vh;
     min-width: 100%;
     background: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0) 30%),
-     url("../static/img/MainPage_TitlePhoto.jpg"); 
+     url("../static/img/bgimage.webp"); 
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -223,7 +223,7 @@ font-style: italic;
 
 .hero {
   background: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0) 30%),
-     url("../static/img/vr.jpg");
+     url("../static/img/vr.webp");
   background-position: 40% center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -277,7 +277,7 @@ width: 40%;
 border: 2px solid #01FF9F;
 border-right: none;
 background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-url("../static/img/catcity.png");
+url("../static/img/catcity.webp");
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
@@ -841,7 +841,7 @@ background: radial-gradient(circle,
   rgba(0, 0, 0, 0) 50%,
   rgba(0, 0, 0, 0.7) 75%,
   rgba(0, 0, 0, 1) 100%),
-url("../static/img/dragon.png") center no-repeat;   
+url("../static/img/dragon.webp") center no-repeat;   
 background-size: cover;
 }
 
@@ -1199,7 +1199,7 @@ padding: 0 5vw;
   rgba(0, 0, 0, 0) 50%,
   rgba(0, 0, 0, 0.8) 75%,
   rgba(0, 0, 0, 1) 100%),
-  url("../static/img/brain.png") center no-repeat;
+  url("../static/img/brain.webp") center no-repeat;
   background-size: cover;
   
 }
@@ -1431,7 +1431,7 @@ background-size: contain;
   flex-direction: row;
   padding: 10vh 5vw;
   padding-bottom: 0;
-  background: url("../static/img/citymp.jpg");
+  background: url("../static/img/citymp.webp");
   background-size: cover;
   overflow: hidden;    
   z-index: 1;           
@@ -1455,7 +1455,7 @@ background-size: contain;
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  background: url("../static/img/aitree_transparent1.png") no-repeat;
+  background: url("../static/img/aitree_transparent1.webp") no-repeat;
   background-size: contain;
   background-position: center;
   z-index: 2;
@@ -2190,7 +2190,7 @@ a[href^="tel"] {
   height: 100vh;
   width: 100%;
   background: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0) 30%),
-   url("../static/img/InternalPages_Header_MatrixGrid.jpg"); 
+   url("../static/img/InternalPages_Header_MatrixGrid.webp"); 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2910,7 +2910,7 @@ width: 80vw;
   rgba(0, 0, 0, 0.2) 50%,
   rgba(0, 0, 0, 0.8) 75%,
   rgba(0, 0, 0, 1) 100%),
-   url("../static/img/CareersPage_Man.png"); 
+   url("../static/img/CareersPage_Man.webp"); 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
