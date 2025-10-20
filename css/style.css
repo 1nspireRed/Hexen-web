@@ -789,7 +789,7 @@ overflow: hidden;
 
 
 .mpbox2 {
-  height: 75vh;
+  height: 50rem;
 display: flex;
 justify-content: center;
 align-self: center;
@@ -801,7 +801,7 @@ margin: 0 auto;
 
 .leftbox2 {
 position: relative;
-height: 75vh;
+height: 50rem;
 width: 65%;
 border: 2px solid #01FF9F;
 border-right: none;
@@ -832,7 +832,7 @@ justify-content: center;
 }
 
 .rightbox2 {
-height: 75vh;
+height: 50rem;
 width: 35%;
 border: 2px solid #01FF9F;   
 background: radial-gradient(circle,
@@ -846,12 +846,12 @@ background-size: cover;
 @media (max-width: 1700px) {
 
   .mpbox2 {
-    height: 85vh;
+    height: 52rem;
   }
 
 .rightbox2,
 .leftbox2 {
-  height: 85vh;
+  height: 52rem;
 }
 
   .leftbox2 h2 {
