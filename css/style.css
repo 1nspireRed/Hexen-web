@@ -3166,7 +3166,7 @@ width: 90px;
   .careerparmobile {
     width: 100vw;
     height: 70vh;
-    background: url(/static/img/careerparallax.png) center no-repeat;
+    background: url("../static/img/careerparallax.png") center no-repeat;
     background-size: cover; 
   }
 
