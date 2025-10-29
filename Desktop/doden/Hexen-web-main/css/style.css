@@ -419,7 +419,7 @@ margin-top: 6.5vh;
 
 
 
-@media (min-width:2000px) {
+@media (min-width:2400px) {
   .mpbox {
     height: 80vh;
     padding: 0 10vw;
@@ -1592,7 +1592,7 @@ justify-content: center;
   font-family: "Space Grotesk", sans-serif;
 } 
 
-@media (min-width:2000px) {
+@media (min-width:2300px) {
   .rightbox5block {
     height: 50vh;
   }
@@ -2690,6 +2690,10 @@ border-bottom: 2px solid #01FF9F;
 
   .mpparallaxbox h2 {
     font-size: 2rem;
+  }
+
+  .aboutusparallax {
+    padding: 15vh 10vw;
   }
 
 }
