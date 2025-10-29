@@ -422,6 +422,7 @@ margin-top: 6.5vh;
 @media (min-width:2000px) {
   .mpbox {
     height: 80vh;
+    padding: 0 10vw;
   }
 
   .leftbox,
@@ -889,14 +890,19 @@ background-size: cover;
 
 @media (min-width:2000px) {
 
+  .parallax1 {
+    padding: 0 10vw;
+  }
+
 .mpbox2 {
-  height: 80vh;
+  height: 60vh;
+  padding: 0 10vw;
 }
 
 .rightbox2,
 .leftbox2 {
-  height: 80vh;
-  background-size: contain;
+  height: 60vh;
+  background-size: cover;
 }
 
 .leftbox2text h2 {
@@ -1358,6 +1364,10 @@ padding: 2rem;
 
 @media (min-width:2000px) {
 
+  .mpbox3 {
+    padding: 0 10vw;
+  }
+
   .rightbox3,
   .leftbox3 {
     height: 70vh;
@@ -1594,6 +1604,10 @@ justify-content: center;
   .rightbox5block p {
     font-size: 1.5rem;
   }
+
+  .mpbox5 {
+    padding: 10vh 10vw;
+  }
 }
 
 
@@ -1808,6 +1822,11 @@ background: #000;
 }
 
 @media (min-width:2000px) {
+
+  .mpbox6 {
+    padding: 0 10vw;
+  }
+
   .rightbox6text p {
     font-size: 1.5rem;
     max-width: 400px;
@@ -1931,6 +1950,18 @@ align-items: center;
 
 
 @media (min-width:2000px) {
+.mpbox7 {
+  padding: 0 10vw;
+}
+
+.leftbox7 {
+  width: 55%;
+}
+
+.rightbox7 {
+  width: 45%;
+}
+
   .leftbox7 h2 {
     font-size: 2.5rem;
   }
@@ -2177,7 +2208,7 @@ a[href^="tel"] {
   }
 
   .footer3 nav {
-    padding-top: 10px;
+    padding-top: 15px;
   }
 }
 
@@ -2338,6 +2369,16 @@ text-align: center;
   margin-top: 15vh;
 }
 
+@media (min-width:2000px) {
+  .internalherotext h1 {
+    font-size: 5rem;
+  }
+
+  .internalherotext h2 {
+    font-size: 2rem;
+  }
+}
+
 @media (max-width:1280px) {
 .internalherotext h1 {
   margin-top: 10vh;
@@ -2396,6 +2437,24 @@ background: #000;
   object-position: center;
   display: block;
   z-index: 0;
+}
+
+@media (min-width:2000px) {
+  .aboutusleftboxtext p {
+    font-size: 1.5rem;
+    max-width: 600px;
+  }
+
+  .aboutusbox {
+    padding: 0 10vw;
+    min-height: 70vh;
+  }
+
+  .aboutusleftbox,
+  .aboutusrightbox {
+    height: 70vh;
+  }
+
 }
 
 @media (max-width:800px) {
@@ -2480,6 +2539,8 @@ border-bottom: 2px solid #01FF9F;
  max-width: 42rem; 
  background: rgba(0, 0, 0, 0.5);
 }
+
+
 
 @media (max-width:500px) {
 .aboutusparallaxtop {
