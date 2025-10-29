@@ -420,15 +420,6 @@ margin-top: 6.5vh;
 
 
 @media (min-width:2400px) {
-  .mpbox {
-    height: 80vh;
-    padding: 0 10vw;
-  }
-
-  .leftbox,
-  .rightbox {
-    height: 80vh;
-  }
 
   .section1 p,
 .section2 p,
@@ -455,12 +446,19 @@ margin-top: 6.5vh;
 .catcitybutton span {
   font-size: 1.1rem;
 }
-
-
-
-
 }
 
+@media (min-width:2000px) {
+  .mpbox {
+    height: 80vh;
+    padding: 0 10vw;
+  }
+
+    .leftbox,
+  .rightbox {
+    height: 80vh;
+  }
+}
 
 @media (max-width: 1700px)  {
     .section1,
