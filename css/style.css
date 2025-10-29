@@ -2983,11 +2983,22 @@ border-bottom: 2px solid #01FF9F;
 .solutionsbox3 p, 
 .solutionsbox4 p {
   
-  color: #ccc;
-  font-size: 18px;
+  color: #fff;
+  font-size: 180px;
   line-height: 1.5;
   text-align: justify;
 }
+
+@media (min-width:2000px) {
+.solutionsbox1text nav ul li p {
+  font-size: 1.3rem;
+}
+
+.solutionsbox1text nav ul li h3 {
+  font-size: 1.6rem;
+}
+}
+
 
 @media (max-width:1500px) {
   .solutionsbox1,
@@ -3057,6 +3068,18 @@ border-bottom: 2px solid #01FF9F;
 .solutionparallaxbutton {
   margin-top: 25px;
 }
+
+@media (min-width:2000px) {
+  .solutionparallaxboxtext {
+    font-size: 2rem;
+  }
+
+  .solutionparallaxbutton span {
+    font-size: 1.1rem;
+  }
+}
+
+
 
 @media (max-width:1300px) {
 .solutionparallaxboxtext {
