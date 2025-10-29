@@ -3590,6 +3590,51 @@ width: 90px;
   color: #000;
 }
 
+
+
+@media (min-width:2000px) {
+
+  .getstartedleftbox,
+  .getstartedrightbox {
+    height: 75vh;
+  }
+
+  .getstartedleftboxtext p {
+    font-size: 1.5rem;
+  }
+
+  .getstartedrightbox h2 {
+    font-size: 3rem;
+  }
+
+  .getstartedrightbox p {
+    font-size: 1.5rem;
+  }
+
+
+  .contact-form label {
+    margin-left: 90px;
+  }
+}
+
+@media (min-width:2200px) {
+  .contact-form label {
+    margin-left: 120px;
+  }
+}
+
+@media (min-width:2300px) {
+  .contact-form label {
+    margin-left: 130px;
+  }
+}
+
+@media (min-width:2400px) {
+  .contact-form label {
+    margin-left: 180px;
+  }
+}
+
 @media (max-width:1700px) {
   .contact-form label {
     margin-left: 0;
