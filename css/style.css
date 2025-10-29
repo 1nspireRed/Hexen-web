@@ -3154,6 +3154,17 @@ width: 80vw;
   font-size: 2rem;
 }
 
+@media (min-width:2000px) {
+  .careerherotext {
+    margin-bottom: 600px;
+    padding-left:  10vw;
+  }
+
+  .careerherotext h2 {
+    font-size: 2.5rem;
+  }
+}
+
 @media (max-width:550px) {
   .careerherotext {
     padding: 20px;
@@ -3181,7 +3192,7 @@ width: 80vw;
     rgba(0, 0, 0, 0.4) 50%,
     rgba(0, 0, 0, 0.5) 75%,
     rgba(0, 0, 0, 1) 100%);
-  padding: 0 15vh;
+  padding: 0 10vw;
 border-bottom: 2px solid #01FF9F;
   display: flex;
   flex-direction: column;
@@ -3264,6 +3275,46 @@ width: 90px;
 
 .careerbutton .button-style2 {
   padding: 10px 30px;
+}
+
+@media (min-width:2000px) {
+  .careerboxestext p {
+    font-size: 2rem;
+    margin-top: 80px;
+  }
+
+  .careerboxes-grid {
+    gap: 100px;
+    width: 70rem;
+  }
+
+
+  .careerbox {
+    height: 550px;
+    width: 100%;
+  }
+
+  .careerbox h2 {
+    font-size: 2rem;
+  }
+
+  .careerbox p {
+    font-size: 1.5rem;
+  }
+
+  .careerbutton span {
+    font-size: 1.1rem;
+  }
+
+
+  .careerparallaxboxtext h2 {
+    font-size: 3rem;
+  }
+
+  .careerparallaxbutton span {
+    font-size: 1.1rem;
+  }
+
 }
 
 
