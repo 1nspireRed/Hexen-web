@@ -1206,6 +1206,11 @@ background-blend-mode: overlay;
     height: 100vh;
   }
 
+  .parallax2 h2 {
+    margin-bottom: 7vh;
+    margin-left: 3.5vw;
+  }
+
   .box {
     height: 450px;
     width: 350px;
@@ -1216,6 +1221,8 @@ background-blend-mode: overlay;
 
   .box h2 {
     font-size: 2rem;
+    margin-bottom: 0;
+    margin-left: 0;
   }
 
   .box p {
@@ -1823,6 +1830,15 @@ background: #000;
 
   .mpbox6 {
     padding: 0 10vw;
+  }
+
+  .leftbox6,
+  .rightbox6 {
+    height: 60vh;
+  }
+
+  .rightbox6button {
+    margin-bottom: 5vh;
   }
 
   .rightbox6text p {
@@ -3614,6 +3630,7 @@ width: 90px;
 
   .contact-form label {
     margin-left: 90px;
+    font-size: 1.2rem;
   }
 }
 
