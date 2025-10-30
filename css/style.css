@@ -231,11 +231,11 @@ text-align: center;
 
 @media (max-width: 1700px) {
   .hero_text span {
-    font-size: 2.5rem;
+    font-size: 4rem;
   }
 
   .hero_text h1 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
 }
 
