@@ -708,14 +708,14 @@ margin-top: 6.5vh;
 @media (min-width: 680px) and (max-width: 780px) {
 
 .rightbox {
-  height: 120vh;
+  height: 120vh !important;
 }
 
   .section1,
   .section2,
   .section3,
   .section4 {
-    height: 50vh;
+    height: 50vh !important;
   }
 }
 
