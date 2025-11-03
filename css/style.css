@@ -728,6 +728,7 @@ margin-top: 6.5vh;
   .section3,
   .section4 {
     height: 25rem !important;
+    min-height: auto !important;
   }
 }
 
