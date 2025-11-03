@@ -265,12 +265,22 @@ text-align: center;
    0 0 9px #000,
    0 0 9px #000;
 }
+
+
 }
 
 @media (orientation: landscape) and (max-width:1000px) {
  .hero {
-  padding-bottom: 0;
+  padding-bottom: 4%;
   padding-left: 10%;
+ }
+
+ .hero_text h1 {
+  font-size: 1.2rem;
+ }
+
+ .hero_text span {
+  font-size: 3rem;
  }
 
 
@@ -281,6 +291,8 @@ text-align: center;
     padding-left: 5%;
   }
 }
+
+
 
 .mpbox {
 display: flex;
