@@ -706,7 +706,7 @@ margin-top: 6.5vh;
 }
 
 @media (spanning: single-fold-vertical),
-(orientation: landscape) and (min-width: 680px) and (max-width: 920px) {
+(orientation: landscape) and (min-width: 680px) and (max-width: 799px) {
 
 .rightbox {
   height: 70rem !important;
