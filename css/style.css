@@ -709,7 +709,14 @@ margin-top: 6.5vh;
 
 */
 
-@media  (orientation: landscape) and (min-width: 680px) and (max-width: 920px) {
+@media  (orientation: landscape) and (min-width: 680px) and (max-width: 1000px) {
+
+
+  .leftpart,
+.rightpart {
+  height: auto;
+  padding: 10vh 0;
+}
 
 .rightbox {
   height: 70rem !important;
