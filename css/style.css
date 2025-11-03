@@ -582,17 +582,17 @@ margin-top: 6.5vh;
 
 @media (min-width: 680px) and (max-width: 780px) {
 
-
-  .rightbox {
-    height: 70rem;
-  }
+.rightbox {
+  height: 120vh;
+}
 
   .section1,
   .section2,
   .section3,
   .section4 {
-    height: 25rem;
+    height: 50vh;
   }
+
 }
 
 @media (max-width:650px) {
@@ -2786,7 +2786,7 @@ border-bottom: 2px solid #01FF9F;
 }
 }
 
-@media (max-width: 680px) {
+@media (max-width: 770px) {
 
     .mpparallaxbox {
     margin-bottom: 10vh;
