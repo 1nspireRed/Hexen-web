@@ -369,8 +369,8 @@ justify-content: center;
 
 .section1 {
     position: relative;
-    height: 25rem;
-    width: 30%;
+    height: 30rem;
+    width: 25%;
     border: 1px solid #01FF9F;
     z-index: 10;
     background: #000;
@@ -379,8 +379,8 @@ justify-content: center;
 
 .section2 {
     position: relative;
-    height: 25rem;
-    width: 30%;
+    height: 30rem;
+    width: 25%;
     border: 1px solid #01FF9F;
     z-index: 10;
     background: #000;
@@ -399,8 +399,8 @@ margin-top: 6.5vh;
 
 .section3 {
     position: relative;
-    height: 25rem;
-    width: 30%;
+    height: 30rem;
+    width: 25%;
     border: 1px solid #01FF9F;
     margin-top: -15vh;
     z-index: 10;
@@ -410,8 +410,8 @@ margin-top: 6.5vh;
 
 .section4 {
     position: relative;
-    height: 25rem;
-    width: 30%;
+    height: 30rem;
+    width: 25%;
     border: 1px solid #01FF9F;
     z-index: 10;
     background: #000;
