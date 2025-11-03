@@ -370,7 +370,7 @@ justify-content: center;
 .section1 {
     position: relative;
     height: 30rem;
-    width: 25%;
+    width: 30%;
     border: 1px solid #01FF9F;
     z-index: 10;
     background: #000;
@@ -380,7 +380,7 @@ justify-content: center;
 .section2 {
     position: relative;
     height: 30rem;
-    width: 25%;
+    width: 30%;
     border: 1px solid #01FF9F;
     z-index: 10;
     background: #000;
@@ -400,7 +400,7 @@ margin-top: 6.5vh;
 .section3 {
     position: relative;
     height: 30rem;
-    width: 25%;
+    width: 30%;
     border: 1px solid #01FF9F;
     margin-top: -15vh;
     z-index: 10;
@@ -411,7 +411,7 @@ margin-top: 6.5vh;
 .section4 {
     position: relative;
     height: 30rem;
-    width: 25%;
+    width: 30%;
     border: 1px solid #01FF9F;
     z-index: 10;
     background: #000;
@@ -434,7 +434,7 @@ margin-top: 6.5vh;
 .section3 p,
 .section4 p {
       padding: 10px;
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: #ccc;
     padding: 0.625rem 1.25rem;
 }
@@ -460,6 +460,12 @@ margin-top: 6.5vh;
 
 
 @media (min-width:2400px) {
+  .section1,
+.section2,
+.section3,
+.section4 {
+  width: 28%;
+}
 
 .section1 p,
 .section2 p,
@@ -515,8 +521,15 @@ margin-top: 6.5vh;
   .section2,
   .section3,
   .section4 {
-    width: 30%;
+    width: 40%;
   }
+
+  .section1 p,
+.section2 p,
+.section3 p,
+.section4 p{
+  font-size: 1.05rem;
+}
 }
 
 @media (max-width:1480px) {
@@ -524,7 +537,8 @@ margin-top: 6.5vh;
   .section2,
   .section3,
   .section4 {
-    width: 35%;
+    width: 40%;
+    height: 40vh;
   }
 
   .mpbox {
@@ -545,14 +559,22 @@ margin-top: 6.5vh;
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
 
 .section1,
   .section2,
   .section3,
   .section4 {
-    height: 30rem;
+    height: 34rem;
   }
+
+
+    .section1 p,
+.section2 p,
+.section3 p,
+.section4 p{
+  font-size: 1rem;
+}
 
 }
 
