@@ -660,8 +660,6 @@ margin-top: 6.5vh;
   }
 }
 
-
-
 @media (orientation: landscape) and (max-width:1000px) {
 
 .leftbox {
@@ -707,9 +705,19 @@ margin-top: 6.5vh;
 }
 }
 
+@media  (orientation: landscape) and (min-width: 680px) and (max-width: 920px) and (min-height:600px) and (max-height:900px) {
 
+.rightbox {
+  height: 70rem !important;
+}
 
-
+  .section1,
+  .section2,
+  .section3,
+  .section4 {
+    height: 25rem !important;
+  }
+}
 
 
 
