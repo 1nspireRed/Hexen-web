@@ -510,6 +510,7 @@ margin-top: 6.5vh;
 }
 
 @media (max-width: 1700px)  {
+
     .section1,
   .section2,
   .section3,
@@ -524,6 +525,23 @@ margin-top: 6.5vh;
   .section3,
   .section4 {
     width: 35%;
+  }
+
+  .mpbox {
+  height: 100vh;
+  }
+
+  .leftbox,
+  .rightbox {
+  height: 100vh;
+  }
+
+  .leftboxtext h2 {
+  margin: 3rem;
+  }
+
+    .catcitybutton {
+    margin-top: 25rem;
   }
 }
 
