@@ -580,21 +580,6 @@ margin-top: 6.5vh;
 }
 }
 
-@media (min-width: 680px) and (max-width: 780px) {
-
-.rightbox {
-  height: 120vh;
-}
-
-  .section1,
-  .section2,
-  .section3,
-  .section4 {
-    height: 50vh;
-  }
-
-}
-
 @media (max-width:650px) {
 
   .mpbox {
@@ -718,6 +703,20 @@ margin-top: 6.5vh;
 .section4 {
   min-height: 110vh;
 }
+}
+
+@media (min-width: 680px) and (max-width: 780px) {
+
+.rightbox {
+  height: 120vh;
+}
+
+  .section1,
+  .section2,
+  .section3,
+  .section4 {
+    height: 50vh;
+  }
 }
 
 
