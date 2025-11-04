@@ -777,7 +777,7 @@ margin-top: 6.5vh;
 .section2,
 .section3,
 .section4 {
-  min-height: 130vh;
+  min-height: 140vh;
 }
 }
 
@@ -835,10 +835,10 @@ overflow: hidden;
 
 .mpparallaxbox {
   height: 20vh;
-  width: 70vw;
+  width: 80vw;
   background: #000;
   border: 2px solid #01FF9F;
-  margin-top: 3vh;
+  margin-bottom: 5rem;
   padding: 3rem;
   display: flex;
   justify-content: center;
@@ -2831,7 +2831,7 @@ border-bottom: 2px solid #01FF9F;
   }
 
   .titleline h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .mpparallaxbox h2 {
