@@ -548,16 +548,16 @@ margin-top: 6.5vh;
   .section3,
   .section4 {
     width: 40%;
-    height: 40vh;
+    height: 60vh;
   }
 
   .mpbox {
-  height: 100vh;
+  height: 140vh;
   }
 
   .leftbox,
   .rightbox {
-  height: 100vh;
+  height: 140vh;
   }
 
   .leftboxtext h2 {
