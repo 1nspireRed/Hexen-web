@@ -705,8 +705,8 @@ margin-top: 6.5vh;
   .section2,
   .section3,
   .section4 { 
-    height: 65vh;
-    width: 70%;
+    height: 60vh;
+    width: 80%;
     margin-top: 0;
   }
 
@@ -738,7 +738,7 @@ margin-top: 6.5vh;
   .section2,
   .section3,
   .section4 {
-    height: 65vh;
+    height: 70vh;
   }
 
   .leftboxtext h2 {
@@ -767,7 +767,7 @@ margin-top: 6.5vh;
 .section2,
 .section3,
 .section4 {
-  min-height: 100vh;
+  min-height: 110vh;
 }
 }
 
