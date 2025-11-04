@@ -709,7 +709,7 @@ margin-top: 6.5vh;
   .section2,
   .section3,
   .section4 { 
-    height: 55vh;
+    height: 60vh;
     width: 80%;
     margin-top: 0;
   }
@@ -3013,7 +3013,7 @@ border-bottom: 2px solid #01FF9F;
   .aboutusparallaxbottomblock2,
   .aboutusparallaxbottomblock3 {
     width: 100%;
-    height: 70vh;
+    height: 75vh;
   }
 
   .aboutusparallaxbottomblock1 p,
