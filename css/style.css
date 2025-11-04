@@ -709,7 +709,7 @@ margin-top: 6.5vh;
   .section2,
   .section3,
   .section4 { 
-    height: 60vh;
+    height: 55vh;
     width: 80%;
     margin-top: 0;
   }
@@ -726,7 +726,7 @@ margin-top: 6.5vh;
   }
 
   .catcitybutton {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 
 .section1 p,
@@ -2977,7 +2977,7 @@ border-bottom: 2px solid #01FF9F;
   .aboutusparallaxbottomblock1,
   .aboutusparallaxbottomblock2,
   .aboutusparallaxbottomblock3 {
-    width: 90%;
+    width: 100%;
   }
 
   .corevalues,
@@ -2999,18 +2999,23 @@ border-bottom: 2px solid #01FF9F;
 
 @media (orientation: landscape) and (max-width:1000px) {
   .parallax1 {
-    min-height: 150vh;
+    min-height: 200vh;
   }
 
   .aboutusparallaxbottomblock1,
   .aboutusparallaxbottomblock2,
   .aboutusparallaxbottomblock3 {
 
-    height: 60vh;
+    height: 70vh;
   }
 
   .mpparallaxbox {
-    height: 50vh;
+    height: 60vh;
+  }
+
+  
+  .titleline {
+    font-size: 1.3rem;
   }
 
 }
@@ -3023,6 +3028,7 @@ border-bottom: 2px solid #01FF9F;
   .aboutusparallaxbottomblock3 {
     height: 70vh;
   }
+
 }
 
 @media (orientation: landscape) and (max-width:700px) {
