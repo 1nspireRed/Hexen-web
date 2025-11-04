@@ -3005,17 +3005,21 @@ border-bottom: 2px solid #01FF9F;
     width: 15rem;
   }
 
+  .corevaluesmp h2 {
+    font-size: 1.3rem;
+  }
+
   .aboutusparallaxbottomblock1,
   .aboutusparallaxbottomblock2,
   .aboutusparallaxbottomblock3 {
     width: 100%;
-    height: 80vh;
+    height: 70vh;
   }
 
   .aboutusparallaxbottomblock1 p,
   .aboutusparallaxbottomblock2 p,
   .aboutusparallaxbottomblock3 p {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   .mpparallaxbox {
@@ -3023,8 +3027,8 @@ border-bottom: 2px solid #01FF9F;
   }
 
   
-  .titleline {
-    font-size: 1rem;
+  .titleline h2{
+    font-size: 1.3rem;
   }
 
 }
