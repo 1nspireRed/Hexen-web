@@ -2852,6 +2852,14 @@ border-bottom: 2px solid #01FF9F;
 
 }
 
+@media (max-width:1700px) {
+  .aboutusparallaxbottomblock1,
+.aboutusparallaxbottomblock2,
+.aboutusparallaxbottomblock3 {
+  height: 25vh;
+}
+}
+
 @media (max-width: 1550px) {
   .parallax1 {
     height: 110vh;
