@@ -705,7 +705,7 @@ margin-top: 6.5vh;
   .section2,
   .section3,
   .section4 { 
-    height: 60vh;
+    height: 65vh;
     width: 70%;
     margin-top: 0;
   }
@@ -767,7 +767,7 @@ margin-top: 6.5vh;
 .section2,
 .section3,
 .section4 {
-  min-height: 90vh;
+  min-height: 100vh;
 }
 }
 
@@ -777,7 +777,7 @@ margin-top: 6.5vh;
 .section2,
 .section3,
 .section4 {
-  min-height: 110vh;
+  min-height: 120vh;
 }
 }
 
