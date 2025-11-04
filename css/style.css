@@ -2899,8 +2899,8 @@ border-bottom: 2px solid #01FF9F;
 @media (max-width: 770px) {
 
     .mpparallaxbox {
-    margin-bottom: 10vh;
     height: auto;
+    margin-bottom: 50vh;
   }
 
 
