@@ -1190,16 +1190,22 @@ background-size: cover;
 }
 
 .leftbox2 {
-  width: 55%;
+  width: 100%;
 }
 
 .rightbox2 {
-  width: 45%;
+  width: 100%;
 }
 
 .leftbox2,
 .rightbox2 {
   min-height: 150vh;
+}
+
+.mpbox2button {
+  margin-bottom: 2rem;
+  text-align: center;
+  padding-left: 0;
 }
 }
 
