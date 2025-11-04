@@ -2969,6 +2969,11 @@ border-bottom: 2px solid #01FF9F;
 }
 
 @media (max-width: 500px) {
+
+  .parallax1 {
+    height: 250vh;
+  }
+
   .aboutusparallaxbottomblock1,
   .aboutusparallaxbottomblock2,
   .aboutusparallaxbottomblock3 {
