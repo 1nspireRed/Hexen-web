@@ -3009,6 +3009,12 @@ border-bottom: 2px solid #01FF9F;
     height: 80vh;
   }
 
+  .aboutusparallaxbottomblock1 p,
+  .aboutusparallaxbottomblock2 p,
+  .aboutusparallaxbottomblock3 p {
+    font-size: 0.9rem;
+  }
+
   .mpparallaxbox {
     height: 60vh;
   }
