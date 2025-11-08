@@ -4352,14 +4352,14 @@ color: #01FF9F;
 
 
 .cs2text2 ul {
-  padding: 3rem;
+  padding: 2rem;
 }
 
 .cs2text2 li {
   font-size: 2rem;
   color: #ccc;
   line-height: 2;
-  padding-top: 2rem;
+  padding-top: 3.5rem;
   transition: 1s ease-in-out;
   font-weight: 550;
   text-shadow:
@@ -4371,6 +4371,13 @@ color: #01FF9F;
 .cs2block2 li:hover {
   color: #01FF9F;
 }
+
+.cs2block span,
+.cs2block2 span {
+  color: #01FF9F;
+  margin-right: 5px;
+}
+
 
 
 .csimg3 {
@@ -4486,6 +4493,7 @@ color: #01FF9F;
   .cs2block2 {
     width: 27rem;
   }
+
 
   .cs2text li {
     font-size: 1.3rem;
