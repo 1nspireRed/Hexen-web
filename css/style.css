@@ -2321,11 +2321,15 @@ flex-direction: column;
   height: 165px;
 }
 
+.footer3 nav {
+    padding-bottom: 30px;
+  }
+
 .footer3 nav ul li {
   display: flex;              
   align-items: center;      
   gap: 10px;   
-  padding: 0.6rem;                   
+  padding: 1rem;                   
 }
 
 .footer3 nav ul li img {
@@ -2342,7 +2346,7 @@ flex-direction: column;
   color: #01FF9F;
   font-size: 20px;
   margin-left: 7px;
-  margin-bottom: 35px;
+  margin-bottom: 10px;
 }
 
 
@@ -2368,15 +2372,16 @@ a[href^="tel"] {
   }
 
   .footer3 nav {
-    padding-bottom: 20px;
+    padding-bottom: 50px;
   }
 
   .footer3 h2 {
-    padding-bottom: 30px;
+    margin-bottom: 15px;
   }
 
+
   .footer3 nav ul li {
-    padding: 0.7rem;
+    padding: 1.1rem;
   }
 }
 
