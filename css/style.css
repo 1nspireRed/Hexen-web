@@ -4234,7 +4234,7 @@ width: 90px;
 
 .cs1text {
   position: relative;
-  color: #01FF9F;
+  color: #ccc;
   font-size: 1.5rem;
   text-align: justify;
   font-weight: 700;
@@ -4466,5 +4466,32 @@ color: #01FF9F;
 
   .cs3block3 h2{
     font-size: 2rem;
+  }
+}
+
+@media (max-width: 1700px) {
+  .cs1block,
+  .cs1block2 {
+    width: 27rem;
+    height: 27rem;
+  }
+
+  .cs1text p,
+  .cs1text2 p {
+    font-size: 1.2rem;
+  }
+
+
+  .cs2block,
+  .cs2block2 {
+    width: 27rem;
+  }
+
+  .cs2text li {
+    font-size: 1.3rem;
+  }
+
+  .cs2text2 li {
+    font-size: 1.8rem;
   }
 }
