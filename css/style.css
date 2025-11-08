@@ -125,13 +125,13 @@ header nav ul li a:hover::after {
   transition: all 0.3s ease;
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 1300px) {
 header nav {
   margin-right: 10px;
 }
 }
 
-@media (max-width: 1040px) {
+@media (max-width: 1205px) {
 
   .burger {
     display: flex;
@@ -4183,7 +4183,12 @@ width: 90px;
   color: #01FF9F;
   margin-left: 5rem;
   padding: 2rem;
-  background: linear-gradient(rgba(0, 0, 0, 0.2));
+}
+
+@media (max-width:2300px) {
+  .casestudyherotext {
+    font-size: 1.2rem;
+  }
 }
 
 
@@ -4396,7 +4401,7 @@ color: #01FF9F;
   width: 35rem;
   background: linear-gradient(120deg, rgba(1, 255, 159, 0.3) 0%, rgba(0, 0, 0, 1) 80%);
   border: 2px solid #01FF9F;
-  padding: 3rem 6rem;
+  padding: 3rem 4rem;
 }
 
 .cs3text h2 {
@@ -4408,7 +4413,7 @@ color: #01FF9F;
   color: #ccc;
   font-size: 1.5rem;
   padding-top: 2rem;
-  text-align: justify;
+  text-align: center;
 }
 
 .cs3block2 {
@@ -4446,4 +4451,20 @@ color: #01FF9F;
 .cs3text3 h2 {
   color: #01FF9F;
   font-size: 2.5rem;
+}
+
+@media (max-width: 2200px) {
+  .cs3block p,
+  .cs3block2 p {
+    font-size: 1.3rem;
+  }
+
+  .cs3block,
+  .cs3block2 {
+    padding: 2rem 2rem;
+  }
+
+  .cs3block3 h2{
+    font-size: 2rem;
+  }
 }
