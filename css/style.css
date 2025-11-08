@@ -3258,7 +3258,7 @@ background: linear-gradient(270deg, rgba(1, 255, 159, 0.3));
   color: #01FF9F;
   font-size: 1.5rem;
   text-align: center;
-  margin: 3rem 2rem;
+  margin: 3rem 1rem;
 }
 
 .solutionsbox1,
@@ -3271,7 +3271,6 @@ background: linear-gradient(270deg, rgba(1, 255, 159, 0.3));
   border: 2px solid #01FF9F;
   background: #000;
   padding: 1rem 2rem;
-  padding-right: 0;
 }
 
 .solutionsbox1 {
@@ -3428,6 +3427,15 @@ background: linear-gradient(270deg, rgba(1, 255, 159, 0.3));
     width: 100%;
     border: 2px solid #01FF9F;
   }
+}
+
+@media (max-width:500px) {
+  .solutionsbox1 h3,
+.solutionsbox2 h3,
+.solutionsbox3 h3,
+.solutionsbox4 h3 {
+  margin: 3rem 0;
+}
 }
 
 @media (orientation: landscape) and (max-width:1200px) {
