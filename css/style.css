@@ -372,7 +372,7 @@ text-align: center;
     position: relative;
     height: 30rem;
     width: 30%;
-    border: 1px solid #01FF9F;
+    border: 2px solid #01FF9F;
     z-index: 10;
     background: #000;
     border-radius: 10%;
@@ -382,7 +382,7 @@ text-align: center;
     position: relative;
     height: 30rem;
     width: 30%;
-    border: 1px solid #01FF9F;
+    border: 2px solid #01FF9F;
     z-index: 10;
     background: #000;
     margin-top: 15vh;
@@ -403,7 +403,7 @@ text-align: center;
     position: relative;
     height: 30rem;
     width: 30%;
-    border: 1px solid #01FF9F;
+    border: 2px solid #01FF9F;
     margin-top: -15vh;
     z-index: 10;
     background: #000;
@@ -414,7 +414,7 @@ text-align: center;
     position: relative;
     height: 30rem;
     width: 30%;
-    border: 1px solid #01FF9F;
+    border: 2px solid #01FF9F;
     z-index: 10;
     background: #000;
     border-radius: 10%;
@@ -538,11 +538,11 @@ text-align: center;
   }
 
   .section1 p,
-.section2 p,
-.section3 p,
-.section4 p{
-  font-size: 1.05rem;
-}
+  .section2 p,
+  .section3 p,
+  .section4 p {
+    font-size: 1.2rem;
+  }
 }
 
 @media (max-width:1480px) {
@@ -1262,7 +1262,7 @@ row-gap: 4.3rem;
   height: 350px;
   width: 270px;
   border: 2px solid #01FF9F;
-  border-radius: 10px 0 10px 0;
+  border-radius: 0 0 10px 0;
   padding: 0.9rem;
   text-align: center;
   transition: 1s ease-in;
@@ -1299,7 +1299,7 @@ background-blend-mode: overlay;
   border: 2px solid #01FF9F; 
   background:#000;  
   z-index: -1; 
-  border-radius: 10px 0 10px 0;
+  border-radius: 0 0 10px 0;
   transition: 0.5s ease-in;
 }
 
@@ -1671,7 +1671,7 @@ justify-content: center;
   position: relative;
   height: 65vh;
   width: 55%;
-  border: 1px solid #01FF9F;
+  border: 2px solid #01FF9F;
   border-radius: 5%;
   text-align: justify;
 }
@@ -1684,7 +1684,7 @@ justify-content: center;
 }
 
 .slide-header {
-  border-bottom: 1px solid #01FF9F;
+  border-bottom: 2px solid #01FF9F;
   margin-bottom: 100px;
 }
 
@@ -1809,7 +1809,7 @@ justify-content: center;
     position: relative;
     height: 65vh;
     width: 70%;
-    border: 1px solid #01FF9F;
+    border: 2px solid #01FF9F;
     border-radius: 5% 5% 0 0;
     border-bottom: none;
     display: flex;
@@ -2676,7 +2676,7 @@ border-bottom: 2px solid #01FF9F;
 .aboutusparallaxtopblock {
   height: 6vh;
   width: 15rem;
-  border: 1px solid #01FF9F;
+  border: 2px solid #01FF9F;
   border-radius: 0 0 10px 10px;
   
   display: flex;
@@ -2766,7 +2766,6 @@ border-bottom: 2px solid #01FF9F;
   background: #000;
   border: 2px solid #01FF9F;
   border-bottom: none;
-  border-radius: 10px 10px 0 0;
   padding: 0.5rem 0.5rem;
 
   grid-column: 1 / 2;
@@ -2785,7 +2784,6 @@ border-bottom: 2px solid #01FF9F;
   background: #000;
   border: 2px solid #01FF9F;
   border-bottom: none;
-  border-radius: 10px 10px 0 0;
   padding: 0.5rem 0.5rem;
 
   grid-column: 1 / 2;
@@ -3105,7 +3103,7 @@ border-bottom: 2px solid #01FF9F;
   position: relative;
   height: 20rem;
   width: 90%;
-  border: 2px solid #01FF9F;
+  border: 1px solid #01FF9F;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -3125,6 +3123,10 @@ border-bottom: 2px solid #01FF9F;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.solutionstiersblock3 {
+  border-left: none;
 }
 
 .solutionstiersblock1 p,
@@ -3546,7 +3548,7 @@ border-bottom: 2px solid #01FF9F;
 
 
 .careerbox {
-  border: 1px solid #01FF9F;
+  border: 2px solid #01FF9F;
   height: 450px;
   width: 90%;
   background: #000;
@@ -3881,7 +3883,7 @@ width: 90px;
 .contact-form button {
   margin-top: 10px;
   padding: 12px 40px;
-  border: 1px solid #01FF9F;
+  border: 2px solid #01FF9F;
   border-radius: 30px;
   background: transparent;
   color: #01FF9F;
@@ -4329,7 +4331,7 @@ color: #01FF9F;
   align-self: flex-end;
   margin-bottom: 2vh;
   border: 2px solid #01FF9F;
-  background: linear-gradient(to bottom, rgba(1, 255, 159, 0.3) 0%, rgba(0, 0, 0, 1) 60%);
+  background: linear-gradient(to bottom, rgba(1, 255, 159, 0.3) 0%, rgba(0, 0, 0, 1) 80%);
   display: flex;
   justify-content: center;
   align-items: center;
