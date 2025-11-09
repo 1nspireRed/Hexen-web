@@ -4498,9 +4498,12 @@ color: #01FF9F;
     height: 32rem;
   }
 
-  .cs1text p,
   .cs1text2 p {
     font-size: 1.2rem;
+  }
+
+  .cs1text p {
+    font-size: 1.4rem;
   }
 
 
