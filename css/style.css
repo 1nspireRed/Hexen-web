@@ -212,7 +212,7 @@ header nav {
 }
 
 .hero_text span {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 .hero_text h1 {
@@ -221,6 +221,14 @@ color: #000;
 font-family: "Exo 2", sans-serif;
 font-style: italic;
 text-align: center;
+}
+
+@media (min-width: 2200px) {
+  .hero {
+    padding-bottom: 5%;
+    padding-left: 15%;
+  
+  }
 }
 
 @media (max-width:1925px) {
@@ -365,7 +373,6 @@ gap: 50px;
 width: 100%;
 margin-top: -10vh;
 justify-content: center;
-text-align: center;
 }
 
 .section1 {
@@ -375,7 +382,6 @@ text-align: center;
     border: 2px solid #01FF9F;
     z-index: 10;
     background: #000;
-    border-radius: 10%;
 }
 
 .section2 {
@@ -386,7 +392,6 @@ text-align: center;
     z-index: 10;
     background: #000;
     margin-top: 15vh;
-    border-radius: 10%;
 }
 
 
@@ -396,7 +401,6 @@ gap: 50px;
 width: 100%;
 justify-content: center;
 margin-top: 6.5vh;
-text-align: center;
 }
 
 .section3 {
@@ -407,7 +411,6 @@ text-align: center;
     margin-top: -15vh;
     z-index: 10;
     background: #000;
-    border-radius: 10%;
 }
 
 .section4 {
@@ -417,7 +420,6 @@ text-align: center;
     border: 2px solid #01FF9F;
     z-index: 10;
     background: #000;
-    border-radius: 10%;
 }
 
 .section1 h1,
@@ -440,6 +442,7 @@ text-align: center;
     font-size: 1rem;
     color: #ccc;
     padding: 0.625rem 1.25rem;
+    text-align: center;
 }
 
 .section1 img,
@@ -3560,7 +3563,8 @@ width: 80vw;
   position: relative;
   padding: 50px;
   margin-bottom: 300px;
-  text-align: center;
+  text-align: start;
+  max-width: 50%;
 }
 
 .careerherotext h2 {
@@ -4216,7 +4220,7 @@ width: 90px;
 
 
 .cs1block {
-  height: 31rem;
+  height: 35rem;
   width: 33rem;
   border: 2px solid #01FF9F;
   padding: 2rem;
@@ -4225,10 +4229,10 @@ width: 90px;
 
 .cs1block2 {
   justify-self: flex-end;
-    height: 31rem;
+    height: 35rem;
   width: 33rem;
     border: 2px solid #01FF9F;
-  padding: 2rem;
+  padding: 1rem;
   background: linear-gradient(300deg, rgba(1, 255, 159, 0.3) 0%, rgba(0, 0, 0, 1) 80%);
 }
 
@@ -4255,7 +4259,7 @@ width: 90px;
 
 .cs1text2 p {
   color: #ccc;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   text-align: start;
   line-height: 1.5;
   padding: 2rem;
@@ -4317,6 +4321,7 @@ width: 90px;
    0 0 9px #000,
    0 0 9px #000,
    0 0 9px #000;
+   text-align: start;
 }
 
 .cs2block li:hover {
@@ -4356,16 +4361,17 @@ color: #01FF9F;
 }
 
 .cs2text2 li {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #ccc;
-  line-height: 2;
-  padding-top: 3.5rem;
+  line-height: 1.5;
+  padding-top: 0.5rem;
   transition: 1s ease-in-out;
   font-weight: 550;
   text-shadow:
    0 0 9px #000,
    0 0 9px #000,
    0 0 9px #000;
+   text-align: start;
 }
 
 .cs2block2 li:hover {
@@ -4457,7 +4463,7 @@ color: #01FF9F;
 
 .cs3text3 h2 {
   color: #01FF9F;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 @media (max-width: 2200px) {
