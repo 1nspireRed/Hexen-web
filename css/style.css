@@ -4537,9 +4537,22 @@ color: #01FF9F;
 
 @media (max-width:1100px) {
   .cs3block,
-  .cs3block2,
-  .cs3block3 {
+  .cs3block2 {
     height: 25rem;
   }
+
+.cs1block,
+.cs1block2 {
+  width: 20rem;
+}
+
+.cs1text p {
+font-size: 1.1rem;
+}
+
+.cs1text2 p {
+  font-size: 0.9rem;
+}
+
 
 }
