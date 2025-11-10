@@ -4705,3 +4705,13 @@ font-size: 1.1rem;
     height: 150vh;
   }
 }
+
+@media (orientation: landscape) and (max-width:1000px) {
+  .casestudyhero,
+  .csimg1,
+  .csimg2,
+  .csimg3 {
+    background-attachment: scroll;
+    background-size: cover;
+  } 
+}
