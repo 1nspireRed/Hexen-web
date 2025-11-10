@@ -4233,6 +4233,9 @@ width: 90px;
   width: 33rem;
   border: 2px solid #01FF9F;
   padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: linear-gradient(45deg, rgba(1, 255, 159, 0.3) 0%, rgba(0, 0, 0, 1) 80%);;
 }
 
@@ -4580,7 +4583,7 @@ font-size: 1.1rem;
   .csimg3 {
     background-attachment: scroll;
     background-size: cover;
-    height: 100vh;
+    height: 120vh;
   }
 
 
