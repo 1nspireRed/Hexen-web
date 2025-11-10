@@ -4554,5 +4554,17 @@ font-size: 1.1rem;
   font-size: 0.9rem;
 }
 
+.cs2block,
+.cs2block2 {
+  width: 20rem;
+}
+
+.cs2text li {
+  font-size: 1.1rem;
+}
+
+.cs2text2 li {
+  font-size: 0.9rem;
+}
 
 }
