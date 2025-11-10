@@ -4537,7 +4537,9 @@ color: #01FF9F;
 
 @media (max-width:1100px) {
   .cs3block,
-  .cs3block2 {
+  .cs3block2,
+  .cs3block3 {
     height: 25rem;
   }
+
 }
