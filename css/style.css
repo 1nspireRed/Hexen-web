@@ -4713,5 +4713,23 @@ font-size: 1.1rem;
   .csimg3 {
     background-attachment: scroll;
     background-size: cover;
-  } 
+  }
+  
+  .cs1text2 {
+    font-weight: 700;
+  }
+
+
+  .cs3block,
+  .cs3block2 {
+    height: 20rem;
+    align-self: flex-start;
+    margin-top: 30vh;
+  }
+
+  .cs3text p,
+  .cs3text2 p {
+    font-size: 1.1rem;
+  }
 }
+
