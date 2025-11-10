@@ -4521,3 +4521,23 @@ color: #01FF9F;
     font-size: 1.3rem;
   }
 }
+
+@media (max-width:1500px) {
+  .casestudyherotext  {
+    margin-left: 2rem;
+  }
+}
+
+@media (max-width:1300px) {
+
+  .cs3text3 h2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width:1100px) {
+  .cs3block,
+  .cs3block2 {
+    height: 25rem;
+  }
+}
