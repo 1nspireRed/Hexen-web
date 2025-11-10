@@ -4697,12 +4697,22 @@ font-size: 1.1rem;
     height: 90vh;
   }
 
+  .cs1block,
+  .cs1block2 {
+    height: 23rem;
+  }
+
   .csimg2 {
     height: 160vh;
   }
 
   .csimg3 {
     height: 150vh;
+  }
+
+  .cs3block,
+  .cs3block2 {
+    height: 23rem;
   }
 }
 
@@ -4713,6 +4723,18 @@ font-size: 1.1rem;
   .csimg3 {
     background-attachment: scroll;
     background-size: cover;
+  }
+
+  .csimg1 {
+    height: 40rem;
+  }
+
+  .csimg2 {
+    height: 60rem;
+  }
+
+  .csimg3 {
+    height: 60rem;
   }
   
   .cs1text2 {
@@ -4730,6 +4752,11 @@ font-size: 1.1rem;
   .cs3text p,
   .cs3text2 p {
     font-size: 1.1rem;
+  }
+
+
+  .cs3text3 h2 {
+    font-size: 1rem;
   }
 }
 
