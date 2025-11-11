@@ -4206,12 +4206,12 @@ width: 90px;
 
 
 .csimg1 {
-  background-image: url(../static/img/malenia3.jpg);
+  background-image: url(../static/img/maleniarobo.webp);
   text-align: center;
   width: 100%;
   height: 80rem;
   background-attachment: fixed;
-  background-position: 51.8% center;
+  background-position: 49% center;
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
@@ -4395,12 +4395,12 @@ color: #01FF9F;
 
 
 .csimg3 {
-  background-image:  url(../static/img/malenia4.jpg);
+  background-image:  url(../static/img/malenia4.webp);
   text-align: center;
   width: 100%;
   height: 90rem;
   background-attachment: fixed;
-  background-position: 52.5% center;
+  background-position: 51.7% center;
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
