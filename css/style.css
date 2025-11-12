@@ -384,8 +384,9 @@ justify-content: center;
     height: 30rem;
     width: 30%;
     border: 2px solid #01FF9F;
-    z-index: 10;
+    z-index: 0;
     background: #000;
+    transition: 0.5s ease-in-out;
 }
 
 .section2 {
@@ -396,6 +397,7 @@ justify-content: center;
     z-index: 10;
     background: #000;
     margin-top: 15vh;
+    transition: 0.5s ease-in-out;
 }
 
 
@@ -415,6 +417,7 @@ margin-top: 6.5vh;
     margin-top: -15vh;
     z-index: 10;
     background: #000;
+    transition: 0.5s ease-in-out;
 }
 
 .section4 {
@@ -424,6 +427,7 @@ margin-top: 6.5vh;
     border: 2px solid #01FF9F;
     z-index: 10;
     background: #000;
+    transition: 0.5s ease-in-out;
 }
 
 .section1 h1,
@@ -467,7 +471,68 @@ margin-top: 6.5vh;
   border-radius: 2px;
 }
 
+.section1::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: 
+    linear-gradient(135deg,
+      rgba(1, 255, 159, 0.4) 0%,
+      rgba(0, 0, 0, 1) 60%);
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  z-index: -1;
+}
 
+.section2::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: 
+    linear-gradient(225deg,
+      rgba(1, 255, 159, 0.5) 0%,
+      rgba(0, 0, 0, 1) 60%);
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  z-index: -1;
+}
+
+.section3::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: 
+    linear-gradient(45deg,
+      rgba(1, 255, 159, 0.5) 0%,
+      rgba(0, 0, 0, 1) 60%);
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  z-index: -1;
+}
+
+.section4::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: 
+    linear-gradient(315deg,
+      rgba(1, 255, 159, 0.5) 0%,
+      rgba(0, 0, 0, 1) 60%);
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  z-index: -1;
+}
+
+
+
+.section1:hover::before,
+.section2:hover::before,
+.section3:hover::before,
+.section4:hover::before {
+  opacity: 1;
+  background-blend-mode: overlay;
+  box-shadow: 0 0 25px #01FF9F;
+}
 
 @media (min-width:2400px) {
   .section1,
@@ -1686,6 +1751,9 @@ justify-content: center;
   border: 2px solid #01FF9F;
   border-radius: 5%;
   text-align: justify;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .slide-header h2 {
@@ -2601,7 +2669,7 @@ background: #000;
 
 .aboutusleftboxtext p {
   color: #ccc;
-  font-size: 18px;
+  font-size: 1.6rem;
   max-width: 500px;
   text-align: justify;
 }
@@ -2626,7 +2694,7 @@ background: #000;
 
 @media (min-width:2000px) {
   .aboutusleftboxtext p {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     max-width: 600px;
   }
 
@@ -4395,7 +4463,7 @@ color: #01FF9F;
 
 
 .csimg3 {
-  background-image:  url(../static/img/maleniatest4.png);
+  background-image:  url(../static/img/maleniatest3.png);
   text-align: center;
   width: 100%;
   height: 90rem;
