@@ -859,7 +859,7 @@ margin-top: 6.5vh;
 .section2,
 .section3,
 .section4 {
-  min-height: 140vh;
+  min-height: 135vh;
 }
 }
 
@@ -1687,7 +1687,7 @@ padding: 2rem;
 
 @media (orientation: landscape) and (max-width:900px) {
   .rightbox3 {
-    height: 170vh;
+    height: 180vh;
   }
 }
 
@@ -3183,6 +3183,9 @@ border-bottom: 2px solid #01FF9F;
   .aboutusparallaxbottomblock2,
   .aboutusparallaxbottomblock3 {
     height: 80vh;
+  }
+  .aboutusparallax {
+    height: 200vh;
   }
 
 }
