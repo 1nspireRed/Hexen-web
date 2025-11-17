@@ -1966,6 +1966,10 @@ justify-content: center;
     height: 160vh;
   }
 
+  .rightbox5block p {
+    color: red;
+  }
+
 }
 
 @media (orientation: landscape) and (max-width:800px) {
