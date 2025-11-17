@@ -3139,10 +3139,6 @@ border-bottom: 2px solid #01FF9F;
     min-height: 200vh;
   }
 
-  .aboutusparallax {
-    height: 180vh;
-  }
-
   .corevalues,
   .corevaluesmp {
     width: 15rem;
@@ -3184,9 +3180,6 @@ border-bottom: 2px solid #01FF9F;
   .aboutusparallaxbottomblock3 {
     height: 80vh;
   }
-  .aboutusparallax {
-    height: 200vh;
-  }
 
 }
 
@@ -3203,13 +3196,13 @@ border-bottom: 2px solid #01FF9F;
 
 @media (orientation: landscape) and (max-width:1000px) {
   .aboutusparallax {
-    height: 150vh;
+    height: 180vh;
   }
 }
 
 @media (orientation: landscape) and (max-width:900px) {
   .aboutusparallax {
-    height: 170vh;
+    height: 200vh;
   }
 }
 
