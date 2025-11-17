@@ -280,6 +280,7 @@ text-align: center;
 }
 
 
+
 }
 
 @media (orientation: landscape) and (max-width:1000px) {
@@ -293,7 +294,7 @@ text-align: center;
  }
 
  .hero_text span {
-  font-size: 3rem;
+  font-size: 1.9rem;
  }
 
 
@@ -830,7 +831,7 @@ margin-top: 6.5vh;
 @media (orientation: landscape) and (max-width:1000px) {
 
 .leftbox {
-  min-height: 80vh;
+  height: 80vh;
 }
 
 .rightbox {
@@ -1680,7 +1681,7 @@ padding: 2rem;
 }
 
 .rightbox3 {
-  height: 150vh;
+  height: 170vh;
 }
 }
 
@@ -2093,6 +2094,7 @@ background: #000;
 }
 
 
+
 @media (max-width: 960px) {
   .mpbox6 {
     flex-direction: column;
@@ -2124,7 +2126,13 @@ background: #000;
   font-size: 1.5rem;
   left: 50%;
 }
+}
 
+
+@media (orientation: landscape) and (max-width:1000px) {
+  .rightbox6button {
+    margin-top: 10px;
+  }
 }
 
 
@@ -2295,6 +2303,11 @@ margin-bottom: 2vh;
   .rightbox7,
   .leftbox7 {
 height: 80vh;
+  }
+
+
+  .rightbox7button {
+    margin-top: 1rem;
   }
 }
 
@@ -2752,6 +2765,10 @@ background: #000;
   .aboutusleftbox,
   .aboutusrightbox {
     height: 150vh;
+  }
+
+  .aboutusleftboxtext p {
+    font-size: 1.1rem;
   }
 }
 
@@ -3702,6 +3719,14 @@ width: 80vw;
   .careerherotext {
     margin-bottom: 60px;
   }
+
+  .careerherotext {
+    max-width: 100%;
+  }
+
+  .careerherotext h2 {
+    font-size: 1.2rem;
+  }
 }
 
 
@@ -3965,7 +3990,7 @@ width: 90px;
 
 @media (orientation: landscape) and (max-width:1000px) {
   .careerparallaxbox {
-    height: 40vh;
+    height: 50vh;
   }
 }
 
