@@ -786,7 +786,7 @@ margin-top: 6.5vh;
   .section2,
   .section3,
   .section4 { 
-    height: 60vh;
+    height: 55vh;
     width: 80%;
     margin-top: 0;
   }
@@ -819,7 +819,7 @@ margin-top: 6.5vh;
   .section2,
   .section3,
   .section4 {
-    height: 70vh;
+    height: 65vh;
   }
 
   .leftboxtext h2 {
@@ -3675,7 +3675,15 @@ width: 80vw;
 @media (max-width:550px) {
   .careerherotext {
     padding: 20px;
+    max-width: 100%;
+    margin-bottom: 200px;
   }
+
+  .careerherotext h2 {
+    font-size: 1.2;
+  }
+
+  
 }
 
 @media (max-width:400px) {
