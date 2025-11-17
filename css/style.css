@@ -1970,6 +1970,12 @@ justify-content: center;
     font-size: 1.2rem;
   }
 
+
+  .slide1 h2,
+  .slide2 h2, 
+  .slide3 h2 {
+    font-size: 1.3rem;
+  }
 }
 
 @media (orientation: landscape) and (max-width:800px) {
