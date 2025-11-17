@@ -3139,6 +3139,10 @@ border-bottom: 2px solid #01FF9F;
     min-height: 200vh;
   }
 
+  .aboutusparallax {
+    height: 180vh;
+  }
+
   .corevalues,
   .corevaluesmp {
     width: 15rem;
