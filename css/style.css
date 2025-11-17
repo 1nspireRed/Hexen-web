@@ -2736,6 +2736,12 @@ background: #000;
     height: auto;
     border-right: 2px solid #01FF9F;
   }
+
+  @media (max-width: 550px) {
+    .aboutusleftboxtext p {
+      font-size: 1.2rem;
+    }
+  }
 }
 
 @media (orientation: landscape) and (max-width:1000px) {
