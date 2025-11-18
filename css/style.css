@@ -4338,7 +4338,7 @@ width: 90px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; 
   padding: 0 5vw;
 }
 
@@ -4692,7 +4692,7 @@ font-size: 1.1rem;
   .csimg1,
   .csimg2,
   .csimg3 {
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
     flex-direction: column;
     justify-content: center;
