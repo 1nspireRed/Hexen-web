@@ -4692,7 +4692,7 @@ font-size: 1.1rem;
   .csimg1,
   .csimg2,
   .csimg3 {
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: cover;
     flex-direction: column;
     justify-content: center;
