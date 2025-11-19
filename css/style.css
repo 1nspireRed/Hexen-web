@@ -202,7 +202,7 @@ header nav {
     height: 100vh;
     min-width: 100%;
     background: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0) 30%),
-     url("../static/img/bgimage.webp"); 
+     url("../static/img/mp1.png"); 
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
