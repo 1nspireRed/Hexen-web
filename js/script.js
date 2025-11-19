@@ -181,29 +181,6 @@ scene.addEventListener('mousemove', (e) => {
 });
 
 
-document.addEventListener("scroll", () => {
-  let scrollY = window.pageYOffset;
-
-  document.querySelectorAll(".casestudyhero, .csimg1, .csimg2, .csimg3").forEach(section => {
-
-    const rect = section.getBoundingClientRect();
-    const sectionTop = rect.top + scrollY;
-    const speed = 0.3;
-
-    const offset = (scrollY - sectionTop) * speed;
-
-    section.style.setProperty('--parallax-offset', offset + 'px');
-
-    section.querySelector("::before"); // just to force refresh
-    section.style.setProperty('--parallax-offset', offset + 'px');
-
-    section.style.setProperty('transform', 'translateZ(0)');
-    section.style.setProperty('--offsetY', `${offset}px`);
-    section.style.cssText += `--offsetY:${offset}px`;
-    section.style.setProperty('--offset', offset);
-    section.querySelector(':before');
-  });
-});
 
 
 
