@@ -4720,20 +4720,20 @@ font-size: 1.1rem;
 
   .csimg1 {
     height: 80vh;
-     background: linear-gradient(0deg, rgba(1, 255, 159, 0.3) 0%, rgba(0, 0, 0, 1) 50%);
+     background: linear-gradient(0deg, rgba(1, 255, 159, 0.2) 0%, rgba(0, 0, 0, 1) 50%);
   }
 
   .csimg2 {
     height: 150vh;
-     background: linear-gradient(180deg, rgba(1, 255, 159, 0.3) 0%, rgba(0, 0, 0, 1) 50%),
-                 linear-gradient(45deg, rgba(1, 255, 159, 0.3) 0%, rgba(0, 0, 0, 1) 50%);
+     background: linear-gradient(180deg, rgba(1, 255, 159, 0.2) 0%, rgba(0, 0, 0, 1) 50%),
+                 linear-gradient(45deg, rgba(1, 255, 159, 0.2) 0%, rgba(0, 0, 0, 1) 50%);
     background-blend-mode: screen;
   }
 
   .csimg3 {
     height: 150vh;
-    background: linear-gradient(135deg, rgba(1, 255, 159, 0.3) 0%, rgba(0, 0, 0, 1) 50%),
-    linear-gradient(45deg, rgba(1, 255, 159, 0.3) 0%, rgba(0, 0, 0, 1) 50%);
+    background: linear-gradient(135deg, rgba(1, 255, 159, 0.2) 0%, rgba(0, 0, 0, 1) 50%),
+    linear-gradient(315deg, rgba(1, 255, 159, 0.2) 0%, rgba(0, 0, 0, 1) 50%);
     background-blend-mode: screen;
   }
 
