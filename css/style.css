@@ -202,7 +202,7 @@ header nav {
     height: 100vh;
     min-width: 100%;
     background: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0) 30%),
-     url("../static/img/mp1.png"); 
+     url("../static/img/mp2.png"); 
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -218,10 +218,14 @@ header nav {
 
 .hero_text h1 {
 font-size: 3rem;
-color: #000;
+color: #01FF9F;
 font-family: "Exo 2", sans-serif;
 font-style: italic;
 text-align: center;
+  text-shadow:
+   0 0 9px #000,
+   0 0 9px #000,
+   0 0 9px #000;
 }
 
 @media (min-width: 2200px) {
