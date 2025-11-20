@@ -1096,12 +1096,8 @@ justify-content: center;
 height: 50rem;
 width: 50%;
 border: 2px solid #01FF9F;   
-background: radial-gradient(circle,
-  rgba(0, 0, 0, 0) 50%,
-  rgba(0, 0, 0, 0.7) 75%,
-  rgba(0, 0, 0, 1) 100%),
-url("../static/img/freedragon3.png") center no-repeat;   
-background-size: cover;
+background:  url("../static/img/freedragon3.png") center no-repeat;   
+background-size: 120%;
 }
 
 
@@ -1119,7 +1115,7 @@ background-size: cover;
 .rightbox2,
 .leftbox2 {
   height: 60vh;
-  background-size: cover;
+  background-size: 110%;
 }
 
 .leftbox2text h2 {
