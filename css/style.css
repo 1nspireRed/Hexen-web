@@ -1062,7 +1062,7 @@ margin: 0 auto;
 .leftbox2 {
 position: relative;
 height: 50rem;
-width: 65%;
+width: 50%;
 border: 2px solid #01FF9F;
 border-right: none;
 display: flex;
@@ -1094,13 +1094,13 @@ justify-content: center;
 
 .rightbox2 {
 height: 50rem;
-width: 35%;
+width: 50%;
 border: 2px solid #01FF9F;   
 background: radial-gradient(circle,
   rgba(0, 0, 0, 0) 50%,
   rgba(0, 0, 0, 0.7) 75%,
   rgba(0, 0, 0, 1) 100%),
-url("../static/img/dragon.webp") center no-repeat;   
+url("../static/img/freedragon.png") center no-repeat;   
 background-size: cover;
 }
 
