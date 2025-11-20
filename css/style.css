@@ -202,7 +202,7 @@ header nav {
     height: 100vh;
     min-width: 100%;
     background: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0) 30%),
-     url("../static/img/mp3.png"); 
+     url("../static/img/mb111.png"); 
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -231,7 +231,7 @@ text-align: center;
 @media (min-width: 2200px) {
   .hero {
     padding-bottom: 5%;
-    padding-left: 15%;
+    padding-left: 5%;
   
   }
 }
