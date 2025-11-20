@@ -1100,7 +1100,7 @@ background: radial-gradient(circle,
   rgba(0, 0, 0, 0) 50%,
   rgba(0, 0, 0, 0.7) 75%,
   rgba(0, 0, 0, 1) 100%),
-url("../static/img/freedragon.png") center no-repeat;   
+url("../static/img/freedragon2.png") center no-repeat;   
 background-size: cover;
 }
 
@@ -1327,6 +1327,10 @@ background-size: cover;
   font-size: 3rem;
   font-weight: 600;
   margin-top: 8vh;
+  text-shadow:
+   0 0 9px #000,
+   0 0 9px #000,
+   0 0 9px #000;
 }
 
 .parallax2box {
