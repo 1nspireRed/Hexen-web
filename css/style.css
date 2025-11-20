@@ -199,13 +199,14 @@ header nav {
 
 .hero {
     position: relative;
-    height: 100vh;
+    height: 110vh;
     min-width: 100%;
     background: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0) 10%),
      url("../static/img/mpw1.png"); 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -268,7 +269,7 @@ text-align: center;
 
 .hero {
   background: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0) 30%),
-     url("../static/img/vr.webp");
+     url("../static/img/mpw1mob.png");
   background-position: 40% center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -317,7 +318,6 @@ text-align: center;
 display: flex;
 justify-content: center;
 flex-direction: row;
-margin-top: 10vh;
 padding: 0 5vw;
 }
 
@@ -1320,6 +1320,7 @@ background-size: cover;
   rgba(0, 0, 0, 1) 100%),;
 }
 
+
 .parallax2 h2 {
   color: #01FF9F;
   margin-bottom: 10vh;
@@ -1333,7 +1334,6 @@ display: grid;
 grid-template-columns: repeat(3, 270px);
 column-gap: 12.5rem;
 row-gap: 4.3rem;
-
 }
 
 .box {
@@ -1711,7 +1711,7 @@ padding: 2rem;
   padding: 10vh 5vw;
   padding-bottom: 0;
   background: radial-gradient(circle, rgba(0, 0, 0, 0.6) 20%),
-  url("../static/img/citymp.webp");
+  url("../static/img/citymp1.png");
   background-size: cover;
   overflow: hidden;    
   z-index: 1;           
