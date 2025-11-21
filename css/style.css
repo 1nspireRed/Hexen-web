@@ -22,7 +22,7 @@ html {
 }
 
 body {
-  min-height: 100vh;
+  height: 100%;
   width: 100%;
   background-color: black;
 }
@@ -1186,7 +1186,7 @@ background-size: cover;
 .leftbox2 {
   height: auto;
   background: linear-gradient(rgba(0, 0, 0, 0.7) 80%),
-  url(../static/img/dragon.webp) center no-repeat;
+  url(../static/img/freedragon3.png) center no-repeat;
   background-size: contain;
 }
 
@@ -3666,7 +3666,7 @@ width: 80vw;
   rgba(0, 0, 0, 0.2) 50%,
   rgba(0, 0, 0, 0.8) 75%,
   rgba(0, 0, 0, 1) 100%),
-   url("../static/img/CareersPage_Man.webp"); 
+   url("../static/img/car2.png"); 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4338,7 +4338,6 @@ width: 90px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  position: relative;
 
   display: flex;
   flex-direction: row;
@@ -4527,7 +4526,6 @@ color: #01FF9F;
   background-position:  center;
   background-repeat: no-repeat;
   background-size: contain;
-  position: relative;
 
   display: flex;
   flex-direction: row;
